@@ -54,17 +54,19 @@
 
 <!-- SCRIPTS -->
   <!-- JQuery -->
-  <script type="text/javascript" src="../assets/js/jquery-3.4.0.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/js/jquery-3.4.0.min.js');?>"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="../assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/js/popper.min.js');?>"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="../assets/js/mdb.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url('assets/js/mdb.min.js');?>"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization
     new WOW().init();
+    AOS.init();
 
   </script>
 
