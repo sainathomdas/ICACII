@@ -17,6 +17,8 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style1.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/impDates.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/navbarMargin.css');?>">
+
+
   <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather|Stylish" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style type="text/css">
@@ -173,7 +175,7 @@
     <div class="text-center white-text mx-5 wow fadeIn">
 
       <h4 class="display-1" style="font-family: 'Merriweather', sans-serif;"> <strong><br>1<sup>st</sup> International Conference <br></strong></h4>
-       <span style="font-family: 'Stylish', sans-serif;" class="display-4">on</span> 
+      <span style="font-family: 'Stylish', sans-serif;" class="display-4">on</span> 
       <h1 class="display-1">
         <strong style="font-family: 'Merriweather', sans-serif;">  Advances in Computational Intelligence and Informatics</strong>
       </h1>
@@ -207,145 +209,161 @@
           <p><br>It gives us immense pleasure to invite you to join ICACII - 2019, “International Conference on Advances in Computational Intelligence and Informatics”, to be held at one of the most ancient and culturally rich cities of India “Hyderabad”, Telangana from 20th - 21st December 2019. The conference is being organized by Anurag Group of  Institutions (AGI), Hyderabad with an aim to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas in the field of Computer Science & Engineering till the end of 2019. </p>
 
 
-          <p>
+          <p >
             The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. 
 
           </p></strong>
-        </div> 
-        <div class="col-lg-4 mt-4">
-          <div class="box jumbotron raisedbox" data-aos="fade-in"
-          data-aos-duration="2500" style="border-radius: 10px;box-shadow: all;">
+          <br><br>
+          <div class="jumbotron raisedbox .hvr-round-corners" style="border-radius: 10px;"> 
+            <div class="row" ><div class="offset-sm-1 col-sm-10">
+             <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Venue :</h2>
+             <h3 class="h3 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i>&nbsp; Anurag Group of Institutions</h3>
+             <strong>
+              <p class=" mb-4" style="color: black;">&nbsp;Venkatapur (V), Ghatkesar (M),</p>
+               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</h4> 
+                <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</h4> 
+                 <p class=" mb-4" style="color: black;">&nbsp;Email: icacii@cvsr.ac.in</h4> 
+                 </strong> 
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+        </div>
 
-          <h3 class="h3-responsive "><p class="bq-title" style="color: #0d47a1">Important dates <i class="far fa-calendar-alt"></i></p></h3>
+      </div> 
+      <div class="col-lg-4 mt-4">
+        <div class="jumbotron raisedbox" data-aos="fade-in"
+        data-aos-duration="2500" style="border-radius: 10px;box-shadow: all;">
 
-          <div class="page">
-            <div class="page__demo">
-              <div class="main-container page__container">
-                <div class="timeline">
-                  <div class="timeline__group">
-                    <div class="timeline__box">
-                      <div class="timeline__date">
-                        <span class="timeline__day">2</span>
-                        <span class="timeline__month">Sep 2019</span>
-                      </div>
-                      <div class="timeline__post">
-                        <div class="timeline__content">
-                          <p><strong>Paper submission</strong></p>
-                        </div>
+        <h3 class="h3-responsive "><p class="bq-title" style="color: #0d47a1">Important dates <i class="far fa-calendar-alt"></i></p></h3>
+
+        <div class="page">
+          <div class="page__demo">
+            <div class="main-container page__container">
+              <div class="timeline">
+                <div class="timeline__group">
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">2</span>
+                      <span class="timeline__month">Sep 2019</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p><strong>Paper submission</strong></p>
                       </div>
                     </div>
-                    <div class="timeline__box">
-                      <div class="timeline__date">
-                        <span class="timeline__day">19</span>
-                        <span class="timeline__month">Oct 2019</span>
-                      </div>
-                      <div class="timeline__post">
-                        <div class="timeline__content">
-                          <p><strong>Acceptance notification for papers</strong></p>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-
-                    <div class="timeline__box">
-                      <div class="timeline__date">
-                        <span class="timeline__day">2</span>
-                        <span class="timeline__month">Nov 2019</span>
-                      </div>
-                      <div class="timeline__post">
-                        <div class="timeline__content">
-                          <p><strong>Camera ready & last date for early bird registration</strong></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="timeline__box">
-                      <div class="timeline__date">
-                        <span class="timeline__day">16</span>
-                        <span class="timeline__month">Nov 2019</span>
-                      </div>
-                      <div class="timeline__post">
-                        <div class="timeline__content">
-                          <p><strong>Camera ready & last date for late registration </strong></p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="timeline__box">
-                      <div class="timeline__date">
-                        <span class="timeline__day">20,21</span>
-                        <span class="timeline__month">Dec 2019</span>
-                      </div>
-                      <div class="timeline__post">
-                        <div class="timeline__content">
-                          <p><strong>Conference on Advances in Computational Intelligence and Informatics</strong></p>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-
                   </div>
-                </div>
-              </div><center>
-               <a class="btn btn-success btn-lg" href="" style="font-size: 12px;border-radius: 5px;">Register now</a>
-             </center>
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">19</span>
+                      <span class="timeline__month">Oct 2019</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p><strong>Acceptance notification for papers</strong></p>
+                      </div>
+                    </div>
+                  </div>
 
-           </div>
+
+
+
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">2</span>
+                      <span class="timeline__month">Nov 2019</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p><strong>Camera ready & last date for early bird registration</strong></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">16</span>
+                      <span class="timeline__month">Nov 2019</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p><strong>Camera ready & last date for late registration </strong></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline__box">
+                    <div class="timeline__date">
+                      <span class="timeline__day">20,21</span>
+                      <span class="timeline__month">Dec 2019</span>
+                    </div>
+                    <div class="timeline__post">
+                      <div class="timeline__content">
+                        <p><strong>Conference on Advances in Computational Intelligence and Informatics</strong></p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div><center>
+             <a class="btn btn-success btn-lg" href="" style="font-size: 12px;border-radius: 5px;">Register now</a>
+           </center>
 
          </div>
 
        </div>
+
      </div>
    </div>
-
  </div>
 
-
-
-
-
- <!-- Time Counter -->
- <script type="text/javascript">
-
-   var endDate = new Date("Dec 20, 2019 12:00:00").getTime();
-
-   var timer = setInterval(function() {
-
-    var now = new Date().getTime();
-    var t = endDate - now;
-    
-    if (t >= 0) {
-
-      var days = Math.floor(t / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-      var secs = Math.floor((t % (1000 * 60)) / 1000);
-
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-      mins + "m " + secs + "s ";
-
-    } else {
-
-      document.getElementById("time-counter").innerHTML = "Expired!";
-
-    }
-    
-  }, 1000);
+</div>
 
 
 
 
 
+<!-- Time Counter -->
+<script type="text/javascript">
+
+ var endDate = new Date("Dec 20, 2019 12:00:00").getTime();
+
+ var timer = setInterval(function() {
+
+  var now = new Date().getTime();
+  var t = endDate - now;
+
+  if (t >= 0) {
+
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var secs = Math.floor((t % (1000 * 60)) / 1000);
+
+    document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
+    mins + "m " + secs + "s ";
+
+  } else {
+
+    document.getElementById("time-counter").innerHTML = "Expired!";
+
+  }
+
+}, 1000);
 
 
 
 
 
 
-   
+
+
+
+
+
+
 
 
 </script>
