@@ -62,11 +62,18 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="<?php echo base_url('assets/js/mdb.min.js');?>"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ 
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization
     new WOW().init();
     AOS.init();
+
+
+
+
+  
 
   </script>
 

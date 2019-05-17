@@ -1,15 +1,7 @@
 /*
 P.S: if you like my content maybe you will become a donator and donate some money? That helps me to create new awesome materials. https://www.paypal.me/melnik909
 */
-.raisedbox { 
-    padding: 10px;
-    /*border: 1px solid #77aaff;*/
-    box-shadow:  -1px 1px #fff,
-         -2px 2px #fff,
-         -3px 3px #fff,
-         -4px 4px #fff,
-         -5px 5px #fff;
-}
+
 
 .timeline{
   --uiTimelineMainColor: var(--timelineMainColor, #222);
@@ -53,7 +45,7 @@ P.S: if you like my content maybe you will become a donator and donate some mone
 }
 
 .timeline__box:not(:last-of-type){
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .timeline__box:before{
@@ -106,11 +98,11 @@ align-items: center;
   }
 
   .timeline__group{
-    padding-top: 55px;
+    padding-top: 30px;
   }
 
   .timeline__box{
-    padding-left: 80px;
+    padding-left: 90px;
   }
 
   .timeline__box:before{
@@ -194,7 +186,7 @@ p:last-child{
 }
 
 .page{
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -214,14 +206,14 @@ p:last-child{
 }
 
 .page__container{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /*padding-top: 30px;*/
+  padding-bottom: 0px;
   max-width: 800px;
 }
 
 .footer{
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  /*padding-bottom: 1rem;*/
   text-align: center;  
   font-size: 1.4rem;
 }

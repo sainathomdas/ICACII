@@ -28,3 +28,28 @@ body {
   pointer-events: none;
 }
 
+
+
+
+.r-imgs { clear: both; margin-left: 0; position: relative; text-align: center; top: -9px; width: 100%; }
+.r-imgs div { border: 1px solid #d8d8d8; border-radius: 50%; float: left; height: 120px; line-height: 120px; margin-right: 38px; position: relative; text-align: center; width: 120px; }
+.r-imgs img { display: inline; margin: 0; width: 70px; vertical-align: middle; }
+.r-imgs div span { bottom: -42px; font-size: 17px; font-weight: 500; left: 0; line-height: 17px; position: absolute; width: 100%; }
+
+.clear { clear: both }
+
+.what-next .read-more-txt {position: ABSOLUTE;bottom: 62px;left: 0;}
+
+.read-more-txt {font-size: 15px;font-weight: 400;/* position: ABSOLUTE; *//* bottom: 88px; *//* right: 0; */background: #34495e;color: #fff;font-size: 15px;line-height: 40px;text-transform: uppercase;padding: 0 30px; display:inline-block;}
+.read-more-txt:hover {background: #465d74;color: #fff;}
+
+
+.raisedbox { 
+    padding: 10px;
+    /*border: 1px solid #77aaff;*/
+    box-shadow:  -1px 1px #fff,
+         -2px 2px #fff,
+         -3px 3px #fff,
+         -4px 4px #fff,
+         -5px 5px #fff;
+}

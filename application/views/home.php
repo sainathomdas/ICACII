@@ -91,7 +91,7 @@
     <div class="container-fluid">
 
 
-      <a href="" class="navbar-brand h4-responsive"><strong>ICACII</strong></a>
+      <a href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><strong>ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -105,7 +105,7 @@
       <!-- Left -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active cool-link">
-          <a class="nav-link" href="#"><strong>Home</strong>
+          <a class="nav-link" href="<?php echo base_url('index.php/Home');?>"><strong>Home</strong>
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -117,7 +117,7 @@
           <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/About#aboutAgi');?>">About AGI</a>
           <a class="dropdown-item" style="font-size:14px;" href="index.php/About#aboutIEEE">About IEEE</a>
         </div>
-      </li>
+      </li> 
 
       <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
@@ -129,14 +129,38 @@
       </div>
     </li>
 
-    <li class="nav-item cool-link">
-      <a class="nav-link" href="" target="_blank"><strong>Call for Papers</strong></a>
+
+       <li class="nav-item dropdown cool-link">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false"><strong>Program</strong>
+      </a>
+      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+        <a class="dropdown-item" style="font-size: 14px;" href="#">Keynote Speaker</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Plenary Speaker</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Accepted Papers</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Program Schedule</a>
+      </div>
     </li>
+
+
     <li class="nav-item cool-link">
-      <a class="nav-link" href="" target="_blank"><strong>Important Dates</strong></a>
+      <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>"><strong>Call for Papers</strong></a>
     </li>
+    
     <li class="nav-item cool-link">
-      <a class="nav-link" href="" target="_blank"><strong>Registration</strong></a>
+      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
+    </li>
+
+      <li class="nav-item dropdown cool-link">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
+      </a>
+      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+        <a class="dropdown-item" style="font-size: 14px;" href="#">Paper format</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Copyrights</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Registration form</a>
+        <a class="dropdown-item" style="font-size:14px;" href="#">Brochure</a>
+      </div>
     </li>
 
     <li class="nav-item dropdown cool-link">
@@ -144,11 +168,15 @@
       aria-haspopup="true" aria-expanded="false"><strong>Venue and Travel</strong>
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item" style="font-size:14px;" href="#">Accomodation</a>
-      <a class="dropdown-item" style="font-size:14px;" href="#">Local Info</a>
-      <a class="dropdown-item"style="font-size:14px;"  href="#">VISA Info</a>
+      <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+      <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+      <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
     </div>
   </li>
+
+  <li class="nav-item cool-link">
+      <a class="nav-link" href="" target="_blank"><strong>Contact us</strong></a>
+    </li>
 </ul>
 
 
@@ -174,7 +202,7 @@
     <!-- Content -->
     <div class="text-center white-text mx-5 wow fadeIn">
 
-      <h4 class="display-1" style="font-family: 'Merriweather', sans-serif;"> <strong><br>1<sup>st</sup> International Conference <br></strong></h4>
+      <h4 class="display-4" style="font-family: 'Merriweather', sans-serif;"> <strong><br>1<sup>st</sup> International Conference <br></strong></h4>
       <span style="font-family: 'Stylish', sans-serif;" class="display-4">on</span> 
       <h1 class="display-1">
         <strong style="font-family: 'Merriweather', sans-serif;">  Advances in Computational Intelligence and Informatics</strong>
@@ -189,7 +217,7 @@
           <strong><marquee>Imporant Dates : Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
         </h4>
 
-        <a target="_blank" href="" class="btn btn-outline-white btn-lg">
+        <a target="_blank" href="" class="btn btn-outline-white btn-lg ">
           <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
         </a>
       </div>
@@ -214,15 +242,15 @@
 
           </p></strong>
           <br><br>
-          <div class="jumbotron raisedbox .hvr-round-corners" style="border-radius: 10px;"> 
+          <div class="jumbotron raisedbox hoverable" style="border-radius: 10px;"> 
             <div class="row" ><div class="offset-sm-1 col-sm-10">
              <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Venue :</h2>
              <h3 class="h3 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i>&nbsp; Anurag Group of Institutions</h3>
              <strong>
               <p class=" mb-4" style="color: black;">&nbsp;Venkatapur (V), Ghatkesar (M),</p>
-               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</h4> 
-                <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</h4> 
-                 <p class=" mb-4" style="color: black;">&nbsp;Email: icacii@cvsr.ac.in</h4> 
+               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</p> 
+                <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</p> 
+                 <p class=" mb-4" style="color: black;">&nbsp;Email: icacii@cvsr.ac.in</p> 
                  </strong> 
             </div>
             <div class="col-sm-1"></div>
@@ -246,9 +274,9 @@
                       <span class="timeline__day">2</span>
                       <span class="timeline__month">Sep 2019</span>
                     </div>
-                    <div class="timeline__post">
+                    <div class="timeline__post hoverable" >
                       <div class="timeline__content">
-                        <p><strong>Paper submission</strong></p>
+                        <p><strong >Paper submission</strong></p>
                       </div>
                     </div>
                   </div>
@@ -257,7 +285,7 @@
                       <span class="timeline__day">19</span>
                       <span class="timeline__month">Oct 2019</span>
                     </div>
-                    <div class="timeline__post">
+                    <div class="timeline__post hoverable">
                       <div class="timeline__content">
                         <p><strong>Acceptance notification for papers</strong></p>
                       </div>
@@ -272,7 +300,7 @@
                       <span class="timeline__day">2</span>
                       <span class="timeline__month">Nov 2019</span>
                     </div>
-                    <div class="timeline__post">
+                    <div class="timeline__post hoverable">
                       <div class="timeline__content">
                         <p><strong>Camera ready & last date for early bird registration</strong></p>
                       </div>
@@ -283,7 +311,7 @@
                       <span class="timeline__day">16</span>
                       <span class="timeline__month">Nov 2019</span>
                     </div>
-                    <div class="timeline__post">
+                    <div class="timeline__post hoverable">
                       <div class="timeline__content">
                         <p><strong>Camera ready & last date for late registration </strong></p>
                       </div>
@@ -295,7 +323,7 @@
                       <span class="timeline__day">20,21</span>
                       <span class="timeline__month">Dec 2019</span>
                     </div>
-                    <div class="timeline__post">
+                    <div class="timeline__post hoverable">
                       <div class="timeline__content">
                         <p><strong>Conference on Advances in Computational Intelligence and Informatics</strong></p>
                       </div>
@@ -307,7 +335,8 @@
 
                 </div>
               </div>
-            </div><center>
+            </div>
+            <center>
              <a class="btn btn-success btn-lg" href="" style="font-size: 12px;border-radius: 5px;">Register now</a>
            </center>
 
@@ -317,8 +346,32 @@
 
      </div>
    </div>
- </div>
+ </div> 
+<div class="jumbotron-fluid">
+  <h2 class="display-4 mb-4" style="color: darkblue"><strong>Recognitions</strong></h2>
+  <div class="container">
+    <div class="row">
+     
+<div class="r-imgs">
+<div><img src="<?php echo base_url('assets/images/nirf.png');?>" alt=""> </div>
+<div><img src="<?php echo base_url('assets/images/naac.png');?>" alt=""> </div>
+<div><img src="<?php echo base_url('assets/images/nba.png');?>" alt=""> </div>
+  <div><img src="<?php echo base_url('assets/images/ugc.png');?>" alt=""></div>
+  <div><img src="<?php echo base_url('assets/images/tcs.png');?>" alt=""></div>
 
+</div>
+
+<div class="clear"></div>
+<a href="https://anurag.edu.in/placements/fast-facts/" class="read-more-txt" target="_blank">Read More</a> </div>
+</div>
+<br>
+</div>
+
+
+
+    </div>
+  </div>
+</div>
 </div>
 
 
@@ -352,20 +405,6 @@
   }
 
 }, 1000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 
 <?php $this->load->view('common/footer.php');?>

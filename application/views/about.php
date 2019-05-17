@@ -107,7 +107,7 @@
     <div class="container-fluid">
 
       
-      <a href="" class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="Home" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -121,7 +121,7 @@
         <!-- Left -->
         <ul class="navbar-nav mx-auto ">
           <li class="nav-item  cool-link">
-            <a class="nav-link" href="Home">Home
+            <a class="nav-link" href="<?php echo base_url('index.php/Home');?>">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -130,8 +130,8 @@
           aria-haspopup="true" aria-expanded="false">About us
         </a>
         <div class="dropdown-menu dropdown-default"  aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#aboutAgi">About AGI</a>
-          <a class="dropdown-item" href="#aboutIEEE">About IEEE</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutAgi');?>">About AGI</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutIEEE');?>">About IEEE</a>
         </div>
       </li>
 
@@ -145,26 +145,53 @@
         </div>
       </li>
 
+
+        <li class="nav-item dropdown cool-link">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Program
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">Keynote Speaker</a>
+         <a class="dropdown-item" href="#">Plenary Speaker</a>
+        <a class="dropdown-item" href="#">Accepted Papers</a>
+        <a class="dropdown-item" href="#">Program Schedule</a>
+        </div>
+      </li>
+
           <li class="nav-item cool-link">
-            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Call for Papers</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
           </li>
-          <li class="nav-item cool-link">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Important Dates</a>
-          </li>
-          <li class="nav-item cool-link">
-            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Registration</a>
-          </li>
+          
+        <li class="nav-item cool-link">
+      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
+    </li>
+
+            <li class="nav-item dropdown cool-link">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Download
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#">Paper format</a>
+          <a class="dropdown-item" href="#">Copyrights</a>
+             <a class="dropdown-item" href="#">Registration form</a>
+          <a class="dropdown-item" href="#">Brochure</a>
+        </div>
+      </li>
 
            <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Venue and Travel
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">Accomodation</a>
-          <a class="dropdown-item" href="#">Local Info</a>
-          <a class="dropdown-item" href="#">VISA Info</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
         </div>
       </li>
+
+        <li class="nav-item cool-link">
+            <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Contact us</a>
+          </li>
         </ul>
       </div>
 
@@ -196,7 +223,7 @@
     <!-- Grid column -->
 
     <!-- Grid column -->
-    <div class="col-md-6 text-md-left ml-3 mt-3">
+    <div class="col-md-6 text-md-left ml-lg-3 mt-3">
 
       
    
@@ -208,7 +235,7 @@
         <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h4>
       </a>
         <p style="color: black;"><strong>
-        Telangana’s top-ranked Autonomous institution provides best-in class education in Engineering, Pharmacy and Business Management over the past decade and half. Anurag Group of Institution (AGI) has been recognized by the Government, AICTE, UGC, NBA, NAAC, PCI, Industry, Apex Bodies, and other Societies of repute. AGI has been accredited by Tata Consultancy Services and first in southern Indian state to sign the MoU with “The Open Group” to promote high level academic research standards.</strong>   <a class="btn btn-success btn-sm">Visit AGI website</a></p>
+        Telangana’s top-ranked Autonomous institution provides best-in class education in Engineering, Pharmacy and Business Management over the past decade and half. Anurag Group of Institution (AGI) has been recognized by the Government, AICTE, UGC, NBA, NAAC, PCI, Industry, Apex Bodies, and other Societies of repute. AGI has been accredited by Tata Consultancy Services and first in southern Indian state to sign the MoU with “The Open Group” to promote high level academic research standards.</strong>   <a class="btn btn-success btn-sm" target="_blank" href="https://anurag.edu.in/">Visit AGI website</a></p>
 
 
       </div>
@@ -221,7 +248,7 @@
   <!-- Grid row -->
 
 <!-- News jumbotron -->
-<div class="col-md-11 offset-md-1 mx-3 my-3" style="color: black;">
+<div class="col-md-11 offset-md-1 mx-lg-2 my-3 " style="color: black;">
   <strong>
   <p>
     AGI is awarded for “Distinguished College Award” by CSI Technxt”, “The Top Performing College Award” for the year 2013 & 2015 by IBM “, “The Best Engineering College Award” by ISTE and ranked 8th among the Engineering colleges in the State of Telangana by the Week magazine. Most recently, AGI is recognized as Research Centre in the Computer Science & Engineering, MBA and Pharmacy departments by JNTUH. The institution offers seven Undergraduate and 11 Postgraduate programs in Engineering, two undergraduate and five Postgraduate programs in Pharmacy and one Postgraduate program in Management. The institution is spread over 50+ acres with a total built-up area of over 700,000 sft. AGI has maintained a record crowning in academics and securing high pay MNC placements for its students who have become symbols of brilliance.
@@ -229,7 +256,7 @@
   </strong>
 </div>
 
-<div class="col-md-11 offset-md-1 mx-3 my-3" style="color: black;" id="aboutIEEE">
+<div class="col-md-11 offset-md-1 mx-lg-2 my-3 " style="color: black;" id="aboutIEEE">
   <h4 class="h4 mb-4" style="color: black;text-align: left;">About IEEE:</h4>
   <strong>
   <p>
