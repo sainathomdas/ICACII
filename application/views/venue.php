@@ -278,7 +278,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>Novotel</th>
+          <td>Novotel</td>
           <td>Near Airport</td>
         
 
@@ -325,7 +325,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>Swagath Grand</th>
+          <td>Swagath Grand</td>
           <td>Kothapet, Nagole, Habsiguda</td>
         
 
@@ -358,12 +358,12 @@
 <h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>Click here to know about Hyderabad tourism</strong></h3>
 </a>
 <hr>
-<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong>
+<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
 <br>
 <span style="font-size: 16px;">(Under Construction)</span>
 
 
   </div>
-
+</div>
 
 <?php $this->load->view('common/footer.php');?>
