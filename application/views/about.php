@@ -190,7 +190,7 @@
       </li>
 
         <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>" target="_blank">Contact us</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>>Contact us</a>
           </li>
         </ul>
       </div>
