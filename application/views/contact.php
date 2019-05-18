@@ -67,12 +67,9 @@
 
     }
 
-    ul li{
-     min-width: 40px;
-     margin-left: 20px;
-   }
+    
    .navbar-brand{
-    margin-left: 4%;
+    margin-left: 3%;
   }
 
   .box {
@@ -141,8 +138,9 @@
         aria-haspopup="true" aria-expanded="false">Committee
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" href="#">Organizing committee</a>
-        <a class="dropdown-item" href="#">Advisory committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
       </div>
     </li>
 
@@ -164,7 +162,7 @@
   </li>
 
  <li class="nav-item cool-link">
-      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
+      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
     </li>
 
   <li class="nav-item dropdown cool-link">

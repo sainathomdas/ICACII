@@ -70,14 +70,10 @@
 
     }
 
-    ul li{
-     min-width: 40px;
-     margin-left: 20px;
-     font-size: 16px;
-   }
+
 
    .navbar-brand{
-    margin-left: 4%;
+    margin-left: 3%;
   }
 </style>
 
@@ -103,7 +99,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <!-- Left -->
-      <ul class="navbar-nav mx-auto">
+      <ul class="navbar-nav mx-auto " style="vertical-align: middle;">
         <li class="nav-item active cool-link">
           <a class="nav-link" href="<?php echo base_url('index.php/Home');?>"><strong>Home</strong>
             <span class="sr-only">(current)</span>
@@ -124,8 +120,10 @@
         aria-haspopup="true" aria-expanded="false"><strong>Committee</strong>
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" style="font-size: 14px;" href="#">Organizing committee</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Advisory committee</a>
+        <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
+        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
+        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
+        
       </div>
     </li>
 
