@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ICACII-About Us</title>
+  <title>ICACII-Call for Papers</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -107,7 +107,7 @@
     <div class="container-fluid">
 
 
-      <a href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="Home" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -190,7 +190,7 @@
 </li>
 
 <li class="nav-item cool-link">
-  <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Contact us</a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>" target="_blank">Contact us</a>
 </li>
 </ul>
 </div>
@@ -313,15 +313,6 @@
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 

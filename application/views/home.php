@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style1.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/impDates.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/navbarMargin.css');?>">
-
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather|Stylish" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -91,7 +91,7 @@
     <div class="container-fluid">
 
 
-      <a href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><strong>ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><strong>ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -175,7 +175,7 @@
   </li>
 
   <li class="nav-item cool-link">
-      <a class="nav-link" href="" target="_blank"><strong>Contact us</strong></a>
+      <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>" target="_blank"><strong>Contact us</strong></a>
     </li>
 </ul>
 
@@ -200,11 +200,11 @@
   <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
     <!-- Content -->
-    <div class="text-center white-text mx-5 wow fadeIn">
+    <div class="text-center white-text mx-5 wow fadeIn ">
 
       <h4 class="display-4" style="font-family: 'Merriweather', sans-serif;"> <strong><br>1<sup>st</sup> International Conference <br></strong></h4>
       <span style="font-family: 'Stylish', sans-serif;" class="display-4">on</span> 
-      <h1 class="display-1">
+      <h1 class="display-2">
         <strong style="font-family: 'Merriweather', sans-serif;">  Advances in Computational Intelligence and Informatics</strong>
       </h1>
 
@@ -214,10 +214,12 @@
 
 
         <h4 class="mb-4" style="max-width: 90%">
-          <strong><marquee>Imporant Dates : Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
+          <a title="Register" href="<?php echo base_url('index.php/Registration');?>" >
+          <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Dates :</span> Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
+          </a>
         </h4>
 
-        <a target="_blank" href="" class="btn btn-outline-white btn-lg ">
+        <a target="_blank" title="Springer LNNS" href="https://www.springer.com/series/15179" class="btn btn-outline-white btn-lg ">
           <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
         </a>
       </div>
@@ -233,7 +235,10 @@
 
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-        <strong>
+        <div class="container mt-md-4 p-4" style="border-radius: 10px;background-color: #fff;">
+          <h3 class="h3-responsive" style="color: #0d47a1;font-family: 'Baloo Bhai', cursive;
+"><strong>ICACII - 2019</strong></h3>
+          <strong>
           <p><br>It gives us immense pleasure to invite you to join ICACII - 2019, “International Conference on Advances in Computational Intelligence and Informatics”, to be held at one of the most ancient and culturally rich cities of India “Hyderabad”, Telangana from 20th - 21st December 2019. The conference is being organized by Anurag Group of  Institutions (AGI), Hyderabad with an aim to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas in the field of Computer Science & Engineering till the end of 2019. </p>
 
 
@@ -241,7 +246,8 @@
             The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. 
 
           </p></strong>
-          <br><br>
+        </div>
+          <br>
           <div class="jumbotron raisedbox hoverable" style="border-radius: 10px;"> 
             <div class="row" ><div class="offset-sm-1 col-sm-10">
              <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Venue :</h2>
@@ -337,7 +343,7 @@
               </div>
             </div>
             <center>
-             <a class="btn btn-success btn-lg" href="" style="font-size: 12px;border-radius: 5px;">Register now</a>
+             <a class="btn btn-success btn-lg" href="<?php echo base_url('index.php/Registration');?>" style="font-size: 12px;border-radius: 5px;">Register now</a>
            </center>
 
          </div>
@@ -362,7 +368,7 @@
 </div>
 
 <div class="clear"></div>
-<a href="https://anurag.edu.in/placements/fast-facts/" class="read-more-txt" target="_blank">Read More</a> </div>
+<a href="https://anurag.edu.in/about-us/accreditation-awards/" class="read-more-txt" target="_blank">Read More</a> </div>
 </div>
 <br>
 </div>
@@ -400,7 +406,7 @@
 
   } else {
 
-    document.getElementById("time-counter").innerHTML = "Expired!";
+    document.getElementById("time-counter").innerHTML = "";
 
   }
 
