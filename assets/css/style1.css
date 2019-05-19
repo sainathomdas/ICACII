@@ -27,6 +27,15 @@ body {
   /*Without this, clicking will make it sticky*/
   pointer-events: none;
 }
+.raisedbox { 
+    padding: 10px;
+    /*border: 1px solid #77aaff;*/
+    box-shadow:  -1px 1px #fff,
+         -2px 2px #fff,
+         -3px 3px #fff,
+         -4px 4px #fff,
+         -5px 5px #fff;
+}
 
 
 
@@ -42,14 +51,3 @@ body {
 
 .read-more-txt {font-size: 15px;font-weight: 400;/* position: ABSOLUTE; *//* bottom: 88px; *//* right: 0; */background: #34495e;color: #fff;font-size: 15px;line-height: 40px;text-transform: uppercase;padding: 0 30px; display:inline-block;}
 .read-more-txt:hover {background: #465d74;color: #fff;}
-
-
-.raisedbox { 
-    padding: 10px;
-    /*border: 1px solid #77aaff;*/
-    box-shadow:  -1px 1px #fff,
-         -2px 2px #fff,
-         -3px 3px #fff,
-         -4px 4px #fff,
-         -5px 5px #fff;
-}

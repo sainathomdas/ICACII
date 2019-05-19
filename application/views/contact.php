@@ -150,10 +150,10 @@
       aria-haspopup="true" aria-expanded="false">Program
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item" href="#">Keynote Speaker</a>
-      <a class="dropdown-item" href="#">Plenary Speaker</a>
-      <a class="dropdown-item" href="#">Accepted Papers</a>
-      <a class="dropdown-item" href="#">Program Schedule</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
   </li>
 
@@ -170,10 +170,10 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="#">Paper format</a>
-    <a class="dropdown-item" href="#">Copyrights</a>
-    <a class="dropdown-item" href="#">Registration form</a>
-    <a class="dropdown-item" href="#">Brochure</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
   </div>
 </li>
 
@@ -200,10 +200,10 @@
 <div class="navbarMargin"  ></div>
 
 
-<div class="jumbotron ml-sm-1 mt-xl-2 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;">
+<div class="jumbotron ml-sm-1 ml-md-4 mt-xl-2 mr-sm-1 ml-lg-4 mr-lg-4 p-1 pl-4 pr-4 " style="border-radius: 10px;margin: 5%;">
 <div class="container hvr-float-shadow ml-lg-5 ml-sm-1 pl-sm-1">
   
-  <h2 class="h2-responsive pt-2" style="color: #0d47a1;"><strong>Contact</strong></h2>
+  <h2 class="h2-responsive pt-2" style="color: green;font-family: 'Lato', sans-serif;"><strong>Contact</strong></h2>
   <div class="container ">
     <h3 class="h3-responsive pt-2" style="color: black;"><strong>Dr.Sandeep Singh Rawat</strong></h3>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>The Organizing Chair</strong></h5>
@@ -212,13 +212,16 @@
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Anurag Group of Institutions</strong></h5>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Venkatapur (V), Ghatkesar (M),</strong></h5>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Medchal District, Hyderabad,Telangana, India-500 088.</strong></h5>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Email: icacii2019@cvsr.ac.in</strong></h5>
+    <h5 class="h6-responsive pt-2" style="color: black;"><strong>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></strong></h5>
+
+
     
   </div>
 
 </div>
   
 </div>
+  
 
 
 

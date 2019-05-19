@@ -149,10 +149,10 @@
           aria-haspopup="true" aria-expanded="false">Program
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">Keynote Speaker</a>
-         <a class="dropdown-item" href="#">Plenary Speaker</a>
-        <a class="dropdown-item" href="#">Accepted Papers</a>
-        <a class="dropdown-item" href="#">Program Schedule</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
         </div>
       </li>
 
@@ -169,10 +169,10 @@
           aria-haspopup="true" aria-expanded="false">Download
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">Paper format</a>
-          <a class="dropdown-item" href="#">Copyrights</a>
-             <a class="dropdown-item" href="#">Registration form</a>
-          <a class="dropdown-item" href="#">Brochure</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
         </div>
       </li>
 
@@ -230,7 +230,7 @@
 
       <div class="jumbotron box">
            <a href="#!" class="green-text">
-        <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h4>
+        <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i> Anurag Group of Institutions</h4>
       </a>
         <p style="color: black;"><strong>
         Telangana’s top-ranked Autonomous institution provides best-in class education in Engineering, Pharmacy and Business Management over the past decade and half. Anurag Group of Institution (AGI) has been recognized by the Government, AICTE, UGC, NBA, NAAC, PCI, Industry, Apex Bodies, and other Societies of repute. AGI has been accredited by Tata Consultancy Services and first in southern Indian state to sign the MoU with “The Open Group” to promote high level academic research standards.</strong>   <a class="btn btn-success btn-sm" target="_blank" href="https://anurag.edu.in/">Visit AGI website</a></p>
@@ -251,11 +251,38 @@
   <p>
     AGI is awarded for “Distinguished College Award” by CSI Technxt”, “The Top Performing College Award” for the year 2013 & 2015 by IBM “, “The Best Engineering College Award” by ISTE and ranked 8th among the Engineering colleges in the State of Telangana by the Week magazine. Most recently, AGI is recognized as Research Centre in the Computer Science & Engineering, MBA and Pharmacy departments by JNTUH. The institution offers seven Undergraduate and 11 Postgraduate programs in Engineering, two undergraduate and five Postgraduate programs in Pharmacy and one Postgraduate program in Management. The institution is spread over 50+ acres with a total built-up area of over 700,000 sft. AGI has maintained a record crowning in academics and securing high pay MNC placements for its students who have become symbols of brilliance.
   </p>
+  <div class="col-md-11 offset-md-1 mx-lg-2 my-3 ">
+  <h4 class="h4 mb-2 text-left" style="color: black;">Special Achievements</h4>
+
+<ul style="font-family: 'Lato', sans-serif;" class="text-left">
+          <li> UGC Autonomous Institution, Govt. of India.</li>
+<li>Accredited by NBA, AICTE, New Delhi.</li>
+<li>Accredited by NAAC-A Grade, UGC, Govt. of India.</li>
+<li>TCS Accreditation.</li>
+<li>MoU signed with IIT Hyd for all academic relations</li>
+<li>NIRF India Rankings 2019: All India 169th Rank in Engineering and All India 76-100 Rank-band in Pharmacy</li>
+<li>AAA+ Rating by Careers360 Ranking 2019</li>
+<li>Received Best Performing College award from Hon’ble President of India, by Ministry of Youth affairs & Sports, Govt. of India, on 21st Dec. 2017</li>
+<li>Ranked 74th Best Engineering College in India - by Times Top 100 Private Engineering Institute Rankings 2018.</li>
+<li>Anurag Group of Institutions has achieved “Distinguished College Award” from CSI TechNext India 2017.</li>
+<li>Ranked “8th Best Engineering College” in Telangana by The Week 2016.</li>
+<li>Winner of “Top Performing College Award” by IBM TGMC-2013 & 2015.</li>
+<li>“The Best Engineering College Award” by ISTE for All Round Performance of the year 2012.</li>
+       <span class="text-left" style="text-align: left;"> To know more about department of CSE :<a href="https://anurag.edu.in/academics/schools/engineering/computer-science-and-engineering-2/" target="blank" class="text-primary">Click here</a></span>
+         </ul>
+
+
+
+
+</div>
+
+
+
   </strong>
 </div>
 
 <div class="col-md-11 offset-md-1 mx-lg-2 my-3 " style="color: black;" id="aboutIEEE">
-  <h4 class="h4 mb-4" style="color: black;text-align: left;">About IEEE:</h4>
+  <h4 class="h4 mb-2 mt-2" style="color: black;text-align: left;">About IEEE:</h4>
   <strong>
   <p>
   IEEE and its organizational units engage in coordinated public policy activities at the national, regional, and international levels in order to advance the mission and vision of securing the benefits of technology for the advancement of society. The IEEE Global Public Policy website provides a window into these activities, as well as a repository of all public policy positions and statements adopted by IEEE or its organizational units in order to support the goal of engaging and informing IEEE members, the public, and policymakers around the world on technology-related aspects of public policy issues.

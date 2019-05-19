@@ -148,10 +148,10 @@
       aria-haspopup="true" aria-expanded="false">Program
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item" href="#">Keynote Speaker</a>
-      <a class="dropdown-item" href="#">Plenary Speaker</a>
-      <a class="dropdown-item" href="#">Accepted Papers</a>
-      <a class="dropdown-item" href="#">Program Schedule</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
   </li>
 
@@ -168,10 +168,10 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="#">Paper format</a>
-    <a class="dropdown-item" href="#">Copyrights</a>
-    <a class="dropdown-item" href="#">Registration form</a>
-    <a class="dropdown-item" href="#">Brochure</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
   </div>
 </li>
 
@@ -201,8 +201,8 @@
   <div class="jumbotron hoverable">
     <h3 class="h3-responsive" style="color: #0d47a1;"><strong>Call for Papers</strong></h3>
     <p class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
-      The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in Springer Series(under process).
-
+      The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink.</strong></b><br>
+<a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank">Submit your paper now</a>
     </p>
     <br>
 
@@ -243,7 +243,10 @@
            <li>Bio Informatics</li>
            <li>Geo Informatics</li>
            <li>Computer Networks</li>
+           <li>Mathematical models</li>
+           <li>Theoretical/Statistical investigations</li>
            <li>Other Topics Related to ICACII theme</li>
+
          </ul>
        </div>
        <div class="tab-pane fade pl-4 pr-4 pt-0" id="authorInstructions" role="tabpanel" aria-labelledby="paperSubmission"  style="font-family: 'Lato', sans-serif;">
@@ -301,7 +304,7 @@
       <div class="tab-pane fade pl-4 pr-4 pt-0" id="paperSubmission" role="tabpanel" aria-labelledby="paperSubmission">
           <p style="font-family: 'Lato', sans-serif;">Submissions must include title, abstract, keywords, author and affiliation with email address. Please double-check the paper size in your page setup according to Springer format. Authors of accepted papers will be allowed to resubmit camera-ready papers after incorporating reviewers’ comments within the stipulated deadline. Authors of accepted papers have to register for the conference and personally present their paper(s) in the Conference 
       </p><br>
-      <center><a href="https://easychair.org/conferences/?conf=icacii2019" target="_blank" class="btn btn-success" title="Paper submission" style="border-radius: 10px;">Paper Submission</a></center>
+      <center><a href="https://easychair.org/conferences/?conf=icacii2019" target="_blank" class="btn btn-success" title="Paper submission" style="border-radius: 10px;">Submit Paper</a></center>
 
       <br>  <br>  
       </div>

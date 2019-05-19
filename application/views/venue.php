@@ -17,7 +17,8 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/style1.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/navbarMargin.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <style type="text/css">
 
 .box {
@@ -151,10 +152,10 @@
       aria-haspopup="true" aria-expanded="false">Program
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item" href="#">Keynote Speaker</a>
-      <a class="dropdown-item" href="#">Plenary Speaker</a>
-      <a class="dropdown-item" href="#">Accepted Papers</a>
-      <a class="dropdown-item" href="#">Program Schedule</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
   </li>
 
@@ -163,7 +164,7 @@
   </li>
 
   <li class="nav-item cool-link ">
-    <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
+    <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
   </li>
 
   <li class="nav-item dropdown cool-link">
@@ -171,10 +172,10 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="#">Paper format</a>
-    <a class="dropdown-item" href="#">Copyrights</a>
-    <a class="dropdown-item" href="#">Registration form</a>
-    <a class="dropdown-item" href="#">Brochure</a>
+   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
   </div>
 </li>
 
@@ -234,7 +235,7 @@
          <h5 style="color: black;">Venkatapur (V), Ghatkesar (M),</h5>
          <h5 style="color: black;"> Medchal District, Hyderabad,</h5>
          <h5 style="color: black;">Telangana, India. 500 088.</h5>
-         <h5 style="color: black;"> Email: icacii@cvsr.ac.in</h5>
+         <h5 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h5>
         </strong> </p>
 
 
@@ -340,7 +341,7 @@
         
 
         </tr>
-        <tr id="localInfo">
+        <tr >
           <td>Transit Hotel</td>
           <td>Shamshabad</td>
         
@@ -351,11 +352,91 @@
     </table>
   </div>
   </center>
-    <hr id="visaInfo">
-    <a href="https://telanganatourism.gov.in/" target="_blank">
-<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>Click here to know about Hyderabad tourism</strong></h3>
-</a>
-<hr>
+    <hr id="localInfo">
+   
+
+<section >
+  
+
+<div class="title">
+          <h3 >Carousel</h3>
+        </div>
+      
+    
+    <!--         carousel  -->
+    <div class="section" id="carousel">
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-8 mr-auto ml-auto">
+            <!-- Carousel Card -->
+            <div class="card card-raised card-carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 img-thumbnail" src="<?php echo base_url('assets/images/charminar.jpg');?>" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <i class="material-icons">location_on</i> Charminar.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 img-thumbnail" src="<?php echo base_url('assets/images/sagar.jpg');?>" alt="Second slide" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <i class="material-icons">location_on</i> Hussain Sagar
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 img-thumbnail" src="<?php echo base_url('assets/images/golconda.jpg');?>" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <i class="material-icons">location_on</i> Golconda Fort
+                      </h4>
+                    </div>
+          </div>
+          
+          <div class="carousel-item">
+                    <img class="d-block w-100 img-thumbnail" src="<?php echo base_url('assets/images/birla.jpg');?>" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <i class="material-icons">location_on</i> Birla Mandir
+                      </h4>
+                    </div>
+          </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <i class="material-icons">keyboard_arrow_left</i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <i class="material-icons">keyboard_arrow_right</i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <!-- End Carousel Card -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--         end carousel -->
+
+</section>
+
+  <center><a style="text-align: center;border-radius: 10px;" title="Click here to know more" target="_blank" href = "https://telanganatourism.gov.in/" class="btn btn-success">Hyderabad Tourism Local Information</a></center>
+
+
+
+<hr id="visaInfo"><br>
 <h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
 <br>
 <span style="font-size: 16px;">(Under Construction)</span>

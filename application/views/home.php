@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style1.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/impDates.css');?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/navbarMargin.css');?>">
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Lobster|Merriweather|Stylish" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -72,10 +72,10 @@
 
 
 
-   .navbar-brand{
-    margin-left: 3%;
-  }
-</style>
+    .navbar-brand{
+      margin-left: 3%;
+    }
+  </style>
 
 </head>
 
@@ -128,53 +128,53 @@
     </li>
 
 
-       <li class="nav-item dropdown cool-link">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false"><strong>Program</strong>
-      </a>
-      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" style="font-size: 14px;" href="#">Keynote Speaker</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Plenary Speaker</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Accepted Papers</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Program Schedule</a>
-      </div>
-    </li>
-
-
-    <li class="nav-item cool-link">
-      <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>"><strong>Call for Papers</strong></a>
-    </li>
-    
-    <li class="nav-item cool-link">
-      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
-    </li>
-
-      <li class="nav-item dropdown cool-link">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
-      </a>
-      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" style="font-size: 14px;" href="#">Paper format</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Copyrights</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Registration form</a>
-        <a class="dropdown-item" style="font-size:14px;" href="#">Brochure</a>
-      </div>
-    </li>
-
     <li class="nav-item dropdown cool-link">
       <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false"><strong>Venue and Travel</strong>
+      aria-haspopup="true" aria-expanded="false"><strong>Program</strong>
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
-      <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-      <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+      <a class="dropdown-item"  style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item"  style="font-size: 14px;" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
   </li>
 
+
   <li class="nav-item cool-link">
-      <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>"><strong>Contact us</strong></a>
-    </li>
+    <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>"><strong>Call for Papers</strong></a>
+  </li>
+
+  <li class="nav-item cool-link">
+    <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>"><strong>Registration</strong></a>
+  </li>
+
+  <li class="nav-item dropdown cool-link">
+    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
+  </a>
+  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
+  </div>
+</li>
+
+<li class="nav-item dropdown cool-link">
+  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+  aria-haspopup="true" aria-expanded="false"><strong>Venue and Travel</strong>
+</a>
+<div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+  <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+  <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+</div>
+</li>
+
+<li class="nav-item cool-link">
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>"><strong>Contact us</strong></a>
+</li>
 </ul>
 
 
@@ -213,7 +213,7 @@
 
         <h4 class="mb-4" style="max-width: 90%">
           <a title="Register" href="<?php echo base_url('index.php/Registration');?>" >
-          <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Dates :</span> Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
+            <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Dates :</span> Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
           </a>
         </h4>
 
@@ -235,16 +235,16 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
         <div class="container mt-md-4 p-4" style="border-radius: 10px;background-color: #fff;">
           <h3 class="h3-responsive" style="color: #0d47a1;font-family: 'Baloo Bhai', cursive;
-"><strong>ICACII - 2019</strong></h3>
+          "><strong>ICACII - 2019</strong></h3>
           <strong>
-          <p><br>It gives us immense pleasure to invite you to join ICACII - 2019, “International Conference on Advances in Computational Intelligence and Informatics”, to be held at one of the most ancient and culturally rich cities of India “Hyderabad”, Telangana from 20th - 21st December 2019. The conference is being organized by Anurag Group of  Institutions (AGI), Hyderabad with an aim to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas in the field of Computer Science & Engineering till the end of 2019. </p>
+            <p><br>It gives us immense pleasure to invite you to join ICACII - 2019, “International Conference on Advances in Computational Intelligence and Informatics”, to be held at one of the most ancient and culturally rich cities of India “Hyderabad”, Telangana from 20th - 21st December 2019. The conference is being organized by Anurag Group of  Institutions (AGI), Hyderabad with an aim to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas in the field of Computer Science & Engineering till the end of 2019. </p>
 
 
-          <p >
-            The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. 
+            <p >
+              The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. 
 
-          </p></strong>
-        </div>
+            </p></strong>
+          </div>
           <br>
           <div class="jumbotron raisedbox hoverable" style="border-radius: 10px;"> 
             <div class="row" ><div class="offset-sm-1 col-sm-10">
@@ -252,105 +252,105 @@
              <h3 class="h3 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i>&nbsp; Anurag Group of Institutions</h3>
              <strong>
               <p class=" mb-4" style="color: black;">&nbsp;Venkatapur (V), Ghatkesar (M),</p>
-               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</p> 
-                <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</p> 
-                 <p class=" mb-4" style="color: black;">&nbsp;Email: icacii@cvsr.ac.in</p> 
-                 </strong> 
-            </div>
-            <div class="col-sm-1"></div>
+              <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</p> 
+              <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</p> 
+              <p class=" mb-4" style="color: black;">&nbsp;Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></p> 
+            </strong> 
           </div>
+          <div class="col-sm-1"></div>
         </div>
+      </div>
 
-      </div> 
-      <div class="col-lg-4 mt-4">
-        <div class="jumbotron raisedbox" data-aos="fade-in"
-        data-aos-duration="2500" style="border-radius: 10px;box-shadow: all;">
+    </div> 
+    <div class="col-lg-4 mt-4">
+      <div class="jumbotron raisedbox" data-aos="fade-in"
+      data-aos-duration="2500" style="border-radius: 10px;box-shadow: all;">
 
-        <h3 class="h3-responsive "><p class="bq-title" style="color: #0d47a1">Important dates <i class="far fa-calendar-alt"></i></p></h3>
+      <h3 class="h3-responsive "><p class="bq-title" style="color: #0d47a1">Important dates <i class="far fa-calendar-alt"></i></p></h3>
 
-        <div class="page">
-          <div class="page__demo">
-            <div class="main-container page__container">
-              <div class="timeline">
-                <div class="timeline__group">
-                  <div class="timeline__box">
-                    <div class="timeline__date">
-                      <span class="timeline__day">2</span>
-                      <span class="timeline__month">Sep 2019</span>
-                    </div>
-                    <div class="timeline__post hoverable" >
-                      <div class="timeline__content">
-                        <p><strong >Paper submission</strong></p>
-                      </div>
+      <div class="page">
+        <div class="page__demo">
+          <div class="main-container page__container">
+            <div class="timeline">
+              <div class="timeline__group">
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">2</span>
+                    <span class="timeline__month">Sep 2019</span>
+                  </div>
+                  <div class="timeline__post hoverable" >
+                    <div class="timeline__content">
+                      <p><strong >Paper submission</strong></p>
                     </div>
                   </div>
-                  <div class="timeline__box">
-                    <div class="timeline__date">
-                      <span class="timeline__day">19</span>
-                      <span class="timeline__month">Oct 2019</span>
-                    </div>
-                    <div class="timeline__post hoverable">
-                      <div class="timeline__content">
-                        <p><strong>Acceptance notification for papers</strong></p>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="timeline__box">
-                    <div class="timeline__date">
-                      <span class="timeline__day">2</span>
-                      <span class="timeline__month">Nov 2019</span>
-                    </div>
-                    <div class="timeline__post hoverable">
-                      <div class="timeline__content">
-                        <p><strong>Camera ready & last date for early bird registration</strong></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline__box">
-                    <div class="timeline__date">
-                      <span class="timeline__day">16</span>
-                      <span class="timeline__month">Nov 2019</span>
-                    </div>
-                    <div class="timeline__post hoverable">
-                      <div class="timeline__content">
-                        <p><strong>Camera ready & last date for late registration </strong></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="timeline__box">
-                    <div class="timeline__date">
-                      <span class="timeline__day">20,21</span>
-                      <span class="timeline__month">Dec 2019</span>
-                    </div>
-                    <div class="timeline__post hoverable">
-                      <div class="timeline__content">
-                        <p><strong>Conference on Advances in Computational Intelligence and Informatics</strong></p>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
                 </div>
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">19</span>
+                    <span class="timeline__month">Oct 2019</span>
+                  </div>
+                  <div class="timeline__post hoverable">
+                    <div class="timeline__content">
+                      <p><strong>Acceptance notification for papers</strong></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">2</span>
+                    <span class="timeline__month">Nov 2019</span>
+                  </div>
+                  <div class="timeline__post hoverable">
+                    <div class="timeline__content">
+                      <p><strong>Camera ready & last date for early bird registration</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">16</span>
+                    <span class="timeline__month">Nov 2019</span>
+                  </div>
+                  <div class="timeline__post hoverable">
+                    <div class="timeline__content">
+                      <p><strong>Camera ready & last date for late registration </strong></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline__box">
+                  <div class="timeline__date">
+                    <span class="timeline__day">20,21</span>
+                    <span class="timeline__month">Dec 2019</span>
+                  </div>
+                  <div class="timeline__post hoverable">
+                    <div class="timeline__content">
+                      <p><strong>Conference on Advances in Computational Intelligence and Informatics</strong></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
               </div>
             </div>
-            <center>
-             <a class="btn btn-success btn-lg" href="<?php echo base_url('index.php/Registration');?>" style="font-size: 12px;border-radius: 5px;">Register now</a>
-           </center>
-
-         </div>
+          </div>
+          <center>
+           <a class="btn btn-success btn-lg" href="<?php echo base_url('index.php/Registration');?>" style="font-size: 12px;border-radius: 5px;">Register now</a>
+         </center>
 
        </div>
 
      </div>
+
    </div>
- </div> 
+ </div>
+</div> 
 <div class="jumbotron-fluid">
   <h2 class="display-4 mb-4" style="color: darkblue"><strong>Recognitions</strong></h2>
   <div class="container">
@@ -370,15 +370,11 @@
 </div>
 <br>
 </div>
-
-
-
-    </div>
-  </div>
+</div>
 </div>
 </div>
 
-
+  
 
 
 
