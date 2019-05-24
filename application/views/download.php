@@ -13,9 +13,11 @@
   <!-- Material Design Bootstrap -->
   <link href="../assets/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="../assets/css/style.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../assets/css/style1.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/navbarMargin.css">
+   <link href="<?php echo base_url('assets/css/style.min.css');?>" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style1.css');?>">
+  
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/navbarMargin.css');?>">
+
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <style type="text/css">
 

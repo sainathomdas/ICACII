@@ -1,4 +1,4 @@
-<footer id="main-footer footer" style="bottom:0;font-size: 14px;font-family: 'Lato', sans-serif; " class="bg-dark">
+<footer id="main-footer footer" style="bottom:0; font-size: 14px;font-family: 'Lato', sans-serif; " class="bg-dark">
   <style type="text/css">
   
   h1,h3,h2,h5,h4,h6,ul a,.black{

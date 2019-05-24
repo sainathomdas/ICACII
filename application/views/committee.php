@@ -644,7 +644,7 @@
  </div>
 
  <!--end of ORGANIZING COMMITTEE – LOCAL -->
- <hr>
+ <hr id="technicalCommittee">
 
 
  <!--technical committee-->

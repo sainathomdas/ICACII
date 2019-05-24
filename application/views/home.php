@@ -189,10 +189,13 @@
 <!-- Full Page Intro -->
 <div class="view" >
 
-  <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+
+
+  <video class="video-intro" poster="<?php echo base_url('assets/images/background.jpg');?>" playsinline autoplay
   muted loop >
-  <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
+  <source src="<?php echo base_url('assets/images/video.mp4');?>" type="video/mp4">
   </video>
+    
 
   <!-- Mask & flexbox options-->
   <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
