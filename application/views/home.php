@@ -80,7 +80,9 @@
 </head>
 
 
-<body>
+<body >
+
+  <div id="preloader"></div>
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " >
@@ -193,7 +195,7 @@
 
   <video class="video-intro" poster="<?php echo base_url('assets/images/background.jpg');?>" playsinline autoplay
   muted loop >
-  <source src="<?php echo base_url('assets/images/video.mp4');?>" type="video/mp4">
+  <source src="<?php echo base_url('assets/images/video.mp4');?>" type="video/mp4" controls = "true" autoplay loop>
   </video>
     
 
@@ -211,18 +213,27 @@
 
       <!-- Time Counter -->
       <center>
-        <h1 ><p id="time-counter" class="border-light my-4" style="text-align: center;font-family: 'Stylish', sans-serif;"></p></h1></center>
+        <h1 style="font-family: 'Stylish',sans-serif;font-style: italic;">Dec 20-21,2019</h1></center>
 
+        <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions,Venkatapur,Hyderabad</h1>
 
-        <h4 class="mb-4" style="max-width: 90%">
+       
+        <div class="container mb-4">
+        <a href="<?php echo base_url('index.php/CallForPapers#paperSubmission')?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Paper Submission</a>
+        <a href="<?php echo base_url('index.php/Registration');?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Registration</a>
+        <a href="#importantDates" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Important dates</a>
+        <a href="" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;pointer-events: none;" >Accepted papers</a>
+        <a href="" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;pointer-events: none;">Program schedule</a>
+        </div>
+        <a target="_blank" title="Springer LNNS" href="https://www.springer.com/series/15179" class="btn btn-outline-white btn-sm ">
+          <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
+        </a>
+ <h4 class="mb-4" style="max-width: 90%;">
           <a title="Register" href="<?php echo base_url('index.php/Registration');?>" >
             <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Dates :</span> Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
           </a>
         </h4>
 
-        <a target="_blank" title="Springer LNNS" href="https://www.springer.com/series/15179" class="btn btn-outline-white btn-lg ">
-          <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
-        </a>
       </div>
       <!-- Content -->
 
@@ -260,12 +271,12 @@
               <p class=" mb-4" style="color: black;">&nbsp;Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></p> 
             </strong> 
           </div>
-          <div class="col-sm-1"></div>
+          <div class="col-sm-1" ></div>
         </div>
       </div>
 
     </div> 
-    <div class="col-lg-4 mt-4">
+    <div class="col-lg-4 mt-4" id="importantDates">
       <div class="jumbotron raisedbox" data-aos="fade-in"
       data-aos-duration="2500" style="border-radius: 10px;box-shadow: all;">
 
@@ -381,33 +392,5 @@
 
 
 
-<!-- Time Counter -->
-<script type="text/javascript">
-
- var endDate = new Date("Dec 20, 2019 12:00:00").getTime();
-
- var timer = setInterval(function() {
-
-  var now = new Date().getTime();
-  var t = endDate - now;
-
-  if (t >= 0) {
-
-    var days = Math.floor(t / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-    var secs = Math.floor((t % (1000 * 60)) / 1000);
-
-    document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-    mins + "m " + secs + "s ";
-
-  } else {
-
-    document.getElementById("time-counter").innerHTML = "";
-
-  }
-
-}, 1000);
-</script>
 
 <?php $this->load->view('common/footer.php');?>

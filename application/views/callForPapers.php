@@ -98,6 +98,7 @@
 
 <body>
 
+<div id="preloader"></div>
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " style="background-color: #000009" >
     <div class="container-fluid">
@@ -301,7 +302,7 @@
       </div>
 
 
-      <div class="tab-pane fade pl-4 pr-4 pt-0" id="paperSubmission" role="tabpanel" aria-labelledby="paperSubmission">
+      <div class="tab-pane fade pl-4 pr-4 pt-0" id="paperSubmission" role="tabpanel" aria-labelledby="paperSubmission" >
           <p style="font-family: 'Lato', sans-serif;">Submissions must include title, abstract, keywords, author and affiliation with email address. Please double-check the paper size in your page setup according to Springer format. Authors of accepted papers will be allowed to resubmit camera-ready papers after incorporating reviewers’ comments within the stipulated deadline. Authors of accepted papers have to register for the conference and personally present their paper(s) in the Conference 
       </p><br>
       <center><a href="https://easychair.org/conferences/?conf=icacii2019" target="_blank" class="btn btn-success" title="Paper submission" style="border-radius: 10px;">Submit Paper</a></center>

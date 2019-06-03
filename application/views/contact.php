@@ -99,6 +99,8 @@
 
 
 <body>
+  <div id="preloader"></div>
+  
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " style="background-color: #000009" >
