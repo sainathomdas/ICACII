@@ -125,15 +125,9 @@
             <span class="sr-only">(current)</span>
           </a>
         </li>
-        <li class="nav-item dropdown cool-link  ">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">About us
-        </a>
-        <div class="dropdown-menu dropdown-default"  aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutAgi');?>">About AGI</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutIEEE');?>">About IEEE</a>
-        </div>
-      </li>
+      <li class="nav-item cool-link">
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+          </li>
 
       <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
@@ -207,10 +201,10 @@
   
   <h2 class="h2-responsive pt-2" style="color: green;font-family: 'Lato', sans-serif;"><strong>Contact</strong></h2>
   <div class="container ">
-    <h3 class="h3-responsive pt-2" style="color: black;"><strong>Dr.Sandeep Singh Rawat</strong></h3>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>The Organizing Chair</strong></h5>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>ICACII 2019</strong></h5>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Department of CSE</strong></h5>
+    
+    
+    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Convenor - ICACII</strong></h5>
+    
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Anurag Group of Institutions</strong></h5>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Venkatapur (V), Ghatkesar (M),</strong></h5>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Medchal District, Hyderabad,Telangana, India-500 088.</strong></h5>

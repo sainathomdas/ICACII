@@ -5,7 +5,7 @@
 
 @media (min-width: 1281px) {
   .navbarMargin{
-  	min-height: 60px;
+    min-height: 70px;
   }
   
 }
@@ -17,7 +17,7 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .navbarMargin{
-  	min-height: 70px;
+    min-height: 80px;
   }
 
 }
@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 .navbarMargin{
-  	min-height: 70px;
+    min-height: 80px;
   }
   
 }
@@ -47,7 +47,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   .navbarMargin{
-  	min-height: 50px;
+    min-height: 50px;
   }
  
   
@@ -60,7 +60,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 .navbarMargin{
-  	min-height: 35px;
+    min-height: 35px;
   }
   
 }

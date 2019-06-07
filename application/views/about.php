@@ -122,15 +122,9 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-           <li class="nav-item dropdown cool-link active ">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">About us
-        </a>
-        <div class="dropdown-menu dropdown-default"  aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutAgi');?>">About AGI</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/About#aboutIEEE');?>">About IEEE</a>
-        </div>
-      </li>
+         <li class="nav-item cool-link active">
+            <a class="nav-link" href="#">About us</a>
+          </li>
 
         <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
@@ -281,16 +275,6 @@
   </strong>
 </div>
 
-<div class="col-md-11 offset-md-1 mx-lg-2 my-3 " style="color: black;" id="aboutIEEE">
-  <h4 class="h4 mb-2 mt-2" style="color: black;text-align: left;">About IEEE:</h4>
-  <strong>
-  <p>
-  IEEE and its organizational units engage in coordinated public policy activities at the national, regional, and international levels in order to advance the mission and vision of securing the benefits of technology for the advancement of society. The IEEE Global Public Policy website provides a window into these activities, as well as a repository of all public policy positions and statements adopted by IEEE or its organizational units in order to support the goal of engaging and informing IEEE members, the public, and policymakers around the world on technology-related aspects of public policy issues.
-      <br>
-      For more info, visit : <a href="https://www.ieee.org/" target="_blank">IEEE site</a>
-  </p>
-  </strong>
-</div>
 
 </div>
 

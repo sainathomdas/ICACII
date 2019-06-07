@@ -107,15 +107,9 @@
             <span class="sr-only">(current)</span>
           </a>
         </li>
-        <li class="nav-item dropdown cool-link">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false"><strong>About us</strong>
-        </a>
-        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/About#aboutAgi');?>">About AGI</a>
-          <a class="dropdown-item" style="font-size:14px;" href="index.php/About#aboutIEEE">About IEEE</a>
-        </div>
-      </li> 
+       <li class="nav-item cool-link">
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>"><strong>About us</strong></a>
+          </li>
 
       <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
