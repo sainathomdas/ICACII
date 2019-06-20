@@ -118,7 +118,7 @@
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
         <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
         <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
+        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
         
       </div>
     </li>
@@ -187,7 +187,7 @@
 
 
 
-  <video class="video-intro" poster="<?php echo base_url('assets/images/background.jpg');?>" playsinline autoplay
+  <video class="video-intro" poster="" playsinline autoplay
   muted loop >
   <source src="<?php echo base_url('assets/images/video.mp4');?>" type="video/mp4" controls = "true" autoplay loop>
   </video>
@@ -209,7 +209,7 @@
       <center>
         <h1 style="font-family: 'Stylish',sans-serif;font-style: italic;">Dec 20-21,2019</h1></center>
 
-        <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions,Venkatapur,Hyderabad</h1>
+        <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions, Hyderabad</h1>
 
        
         <div class="container mb-4">

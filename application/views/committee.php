@@ -121,7 +121,7 @@
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
       </div>
     </li>
 
@@ -229,7 +229,7 @@
       <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
        <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>General Chair</strong></h3>
        <div class="card">
-        <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="Director">
+        <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="General_Chair">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">Dr. V. Vijaya Kumar</h4>
           <h6 class="card-subtitle mb-2 text-body">Dean, CSE & IT, Anurag Group of Institutions</h6>
@@ -249,7 +249,7 @@
     <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
      <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Program Chair</strong></h3>
      <div class="card">
-      <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Director">
+      <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
       <div class="card-body">
         <h4 class="card-title" style="color: black;">Dr. G. Vishnu Murthy</h4>
         <h6 class="card-subtitle mb-2 text-body">Deputy Director, Anurag Group of Institutions</h6>
@@ -260,13 +260,14 @@
   <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
    <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Convenor</strong></h3>
    <div class="card">
-    <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="Director">
+    <img class="card-img-top img-thumbnail" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep.jpg');?>" alt="Convenor"  >
     <div class="card-body">
       <h4 class="card-title" style="color: black;">Dr. Sandeep Singh Rawat</h4>
       <h6 class="card-subtitle mb-2 text-body">Professor, CSE, Anurag Group of Institutions</h6>
     </div>
   </div>
 </div>
+
 </div>
 </div>
 
@@ -646,7 +647,7 @@
 
  <!--technical committee-->
  <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>TECHNICAL PROGRAMMING COMMITTEE</strong></h3>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>TECHNICAL PROGRAM COMMITTEE</strong></h3>
   <p>(Under construction)</p></center>
 </div>
 <!--end of technical committee-->

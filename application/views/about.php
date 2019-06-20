@@ -133,7 +133,7 @@
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
           <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
         </div>
       </li>
 
@@ -227,7 +227,7 @@
         <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i> Anurag Group of Institutions</h4>
       </a>
         <p style="color: black;"><strong>
-        Telangana’s top-ranked Autonomous institution provides best-in class education in Engineering, Pharmacy and Business Management over the past decade and half. Anurag Group of Institution (AGI) has been recognized by the Government, AICTE, UGC, NBA, NAAC, PCI, Industry, Apex Bodies, and other Societies of repute. AGI has been accredited by Tata Consultancy Services and first in southern Indian state to sign the MoU with “The Open Group” to promote high level academic research standards.</strong>   <a class="btn btn-success btn-sm" target="_blank" href="https://anurag.edu.in/">Visit AGI website</a></p>
+        Telangana’s top-ranked Autonomous institution provides best-in class education in Engineering, Pharmacy and Business Management over the past decade and half. Anurag Group of Institutions (AGI) has been recognized by the Government, AICTE, UGC, NBA, NAAC, PCI, Industry, Apex Bodies, and other Societies of repute. AGI has been accredited by Tata Consultancy Services and first in southern Indian state to sign the MoU with “The Open Group” to promote high level academic research standards.</strong>   <a class="btn btn-success btn-sm" target="_blank" href="https://anurag.edu.in/">Visit AGI website</a></p>
 
 
       </div>
@@ -242,9 +242,11 @@
 <!-- News jumbotron -->
 <div class="col-md-11 offset-md-1 mx-lg-2 my-3 " style="color: black;">
   <strong>
+    <!--
   <p>
     AGI is awarded for “Distinguished College Award” by CSI Technxt”, “The Top Performing College Award” for the year 2013 & 2015 by IBM “, “The Best Engineering College Award” by ISTE and ranked 8th among the Engineering colleges in the State of Telangana by the Week magazine. Most recently, AGI is recognized as Research Centre in the Computer Science & Engineering, MBA and Pharmacy departments by JNTUH. The institution offers seven Undergraduate and 11 Postgraduate programs in Engineering, two undergraduate and five Postgraduate programs in Pharmacy and one Postgraduate program in Management. The institution is spread over 50+ acres with a total built-up area of over 700,000 sft. AGI has maintained a record crowning in academics and securing high pay MNC placements for its students who have become symbols of brilliance.
   </p>
+-->
   <div class="col-md-11 offset-md-1 mx-lg-2 my-3 ">
   <h4 class="h4 mb-2 text-left" style="color: black;">Special Achievements</h4>
 

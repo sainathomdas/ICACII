@@ -66,29 +66,29 @@
 
     }
 
-   .navbar-brand{
-    margin-left: 3%;
-  }
+    .navbar-brand{
+      margin-left: 3%;
+    }
 
-  .box {
-    background: white;
-    margin: auto;
+    .box {
+      background: white;
+      margin: auto;
 
 
-    padding: 20px 25px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
+      padding: 20px 25px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
 
-  .box:hover {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    animation-name: example;
-    animation-duration: 0.25s;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
+    .box:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
 
-</style>
+  </style>
 
 
 
@@ -98,7 +98,7 @@
 
 <body>
 
-<div id="preloader"></div>
+  <div id="preloader"></div>
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " style="background-color: #000009" >
     <div class="container-fluid">
@@ -123,52 +123,52 @@
           </a>
         </li>
         <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
-          </li>
+          <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+        </li>
 
 
-      <li class="nav-item dropdown cool-link">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Committee
-      </a>
-      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-       <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
-      </div>
-    </li>
+        <li class="nav-item dropdown cool-link">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Committee
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
+       </div>
+     </li>
 
 
-    <li class="nav-item dropdown cool-link">
+     <li class="nav-item dropdown cool-link">
       <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
       aria-haspopup="true" aria-expanded="false">Program
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
-    </div>
-  </li>
+     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+   </div>
+ </li>
 
-  <li class="nav-item cool-link active">
-    <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
-  </li>
+ <li class="nav-item cool-link active">
+  <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
+</li>
 
- <li class="nav-item cool-link">
-      <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
-    </li>
+<li class="nav-item cool-link">
+  <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
+</li>
 
-  <li class="nav-item dropdown cool-link">
-    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-    aria-haspopup="true" aria-expanded="false">Download
-  </a>
-  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
-  </div>
+<li class="nav-item dropdown cool-link">
+  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+  aria-haspopup="true" aria-expanded="false">Download
+</a>
+<div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
+</div>
 </li>
 
 <li class="nav-item dropdown cool-link">
@@ -176,9 +176,9 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+ <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+ <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+ <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
 </div>
 </li>
 
@@ -198,7 +198,7 @@
     <h3 class="h3-responsive" style="color: #0d47a1;"><strong>Call for Papers</strong></h3>
     <p class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
       The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink.</strong></b><br>
-<a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank">Submit your paper now</a>
+      <a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank">Submit your paper now</a>
     </p>
     <br>
 
@@ -220,32 +220,35 @@
       <div class="tab-content pt-5" id="myTabContentEx">
         <div class="tab-pane fade active show pl-4 pr-4 pt-0" id="topics" role="tabpanel" aria-labelledby="topics">
          <ul style="font-family: 'Lato', sans-serif;">
-           <li>Computational Intelligence</li>
-           <li>Data Mining and Data Warehousing</li>
-           <li>High Performance Computing</li>
-           <li>Parallel and Distributed Computing</li>
-           <li>Soft Computing</li>
-           <li>Big Data</li>
-           <li>Cloud Computing</li>
-           <li>Grid Computing</li>
-           <li>Cognitive Computing</li>
-           <li>Image Processing</li>
-           <li>Wireless Networks</li>
-           <li>Social Networks</li>
-           <li>Wireless Sensor Networks</li>
-           <li>Information and Network Security</li>
-           <li>Web Security</li>
-           <li>Internet of Things</li>
-           <li>Bio Informatics</li>
-           <li>Geo Informatics</li>
-           <li>Computer Networks</li>
-           <li>Mathematical models</li>
-           <li>Theoretical/Statistical investigations</li>
-           <li>Other Topics Related to ICACII theme</li>
+          <li> Computational Intelligence</li>
+          <li> Data Mining and Data Warehousing</li>
+          <li> High Performance Computing</li>
+          <li> AI & ML Applications </li>
+          <li> Geo Science & Remote Sensing</li>
+          <li> Parallel and Distributed Computing</li>
+          <li> Soft Computing</li>
+          <li> Big Data Analytics</li>
+          <li> Cloud Computing</li>
+          <li> Grid Computing</li>
+          <li> Cognitive Computing</li>
+          <li> Computer Vision</li>
+          <li> Image Processing & Video Processing</li>
+          <li>  Wireless Networks</li>
+          <li>  Social Networks</li>
+          <li>  Wireless Sensor Networks</li>
+          <li>  Information and Network Security</li>
+          <li>  Network Security</li>
+          <li>  Internet of Things</li>
+          <li>   Bio Informatics</li>
+          <li>  Geo Informatics</li>
+          <li>  Computer Networks</li>
+          <li>  Mathematical models</li>
+          <li>  Theoretical/Statistical investigations</li>
+          <li> Other topics in accordance to the theme of ICACII</li>
 
-         </ul>
-       </div>
-       <div class="tab-pane fade pl-4 pr-4 pt-0" id="authorInstructions" role="tabpanel" aria-labelledby="paperSubmission"  style="font-family: 'Lato', sans-serif;">
+        </ul>
+      </div>
+      <div class="tab-pane fade pl-4 pr-4 pt-0" id="authorInstructions" role="tabpanel" aria-labelledby="paperSubmission"  style="font-family: 'Lato', sans-serif;">
         <h5 style="color: black;">Manuscript Preparation</h5>
         <p>
           The manuscript should be prepared in <a href="https://www.springer.com/series/15179" target="_blank"> Springer</a> format using <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/3318/data/v4"> MS WORD </a>and/or <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/20568/data/v8"> LaTeX template </a>available respectively in MS word (.doc).
@@ -298,11 +301,11 @@
 
 
       <div class="tab-pane fade pl-4 pr-4 pt-0" id="paperSubmission" role="tabpanel" aria-labelledby="paperSubmission" >
-          <p style="font-family: 'Lato', sans-serif;">Submissions must include title, abstract, keywords, author and affiliation with email address. Please double-check the paper size in your page setup according to Springer format. Authors of accepted papers will be allowed to resubmit camera-ready papers after incorporating reviewers’ comments within the stipulated deadline. Authors of accepted papers have to register for the conference and personally present their paper(s) in the Conference 
-      </p><br>
-      <center><a href="https://easychair.org/conferences/?conf=icacii2019" target="_blank" class="btn btn-success" title="Paper submission" style="border-radius: 10px;">Submit Paper</a></center>
+        <p style="font-family: 'Lato', sans-serif;">Submissions must include title, abstract, keywords, author and affiliation with email address. Please double-check the paper size in your page setup according to Springer format. Authors of accepted papers will be allowed to resubmit camera-ready papers after incorporating reviewers’ comments within the stipulated deadline. Authors of accepted papers have to register for the conference and personally present their paper(s) in the Conference 
+        </p><br>
+        <center><a href="https://easychair.org/conferences/?conf=icacii2019" target="_blank" class="btn btn-success" title="Paper submission" style="border-radius: 10px;">Submit Paper</a></center>
 
-      <br>  <br>  
+        <br>  <br>  
       </div>
     </div>
   </div>

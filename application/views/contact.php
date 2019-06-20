@@ -136,7 +136,7 @@
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical programming committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
       </div>
     </li>
 
@@ -203,7 +203,7 @@
   <div class="container ">
     
     
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Convenor - ICACII</strong></h5>
+    
     
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Anurag Group of Institutions</strong></h5>
     <h5 class="h5-responsive pt-2" style="color: black;"><strong>Venkatapur (V), Ghatkesar (M),</strong></h5>
