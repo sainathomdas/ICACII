@@ -89,9 +89,12 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-  </style>
+p{
+  font-size: 14px;
+ 
+}
 
-
+ </style>
 
 
 </head>
@@ -163,7 +166,7 @@
           aria-haspopup="true" aria-expanded="false">Download
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+         <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -207,7 +210,7 @@
 
       <!-- Featured image -->
       <div class=" overlay">
-        <iframe style="width: 100%;" height="300" src="https://www.youtube.com/embed/ZPPy8bL_lv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width: 80%;" height="260" src="https://www.youtube.com/embed/ZPPy8bL_lv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
       </div>
 
@@ -249,8 +252,9 @@
 -->
   <div class="col-md-11 offset-md-1 mx-lg-2 my-3 ">
   <h4 class="h4 mb-2 text-left" style="color: black;">Special Achievements</h4>
+  </strong>
 
-<ul style="font-family: 'Lato', sans-serif;" class="text-left">
+<ul style="font-family: 'Lato', sans-serif;font-size: 14px;" class="text-left">
           <li> UGC Autonomous Institution, Govt. of India.</li>
 <li>Accredited by NBA, AICTE, New Delhi.</li>
 <li>Accredited by NAAC-A Grade, UGC, Govt. of India.</li>
@@ -274,7 +278,6 @@
 
 
 
-  </strong>
 </div>
 
 

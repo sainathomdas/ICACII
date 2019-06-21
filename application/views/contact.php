@@ -166,7 +166,7 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+  <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -199,17 +199,17 @@
 <div class="jumbotron ml-sm-1 ml-md-4 mt-xl-2 mr-sm-1 ml-lg-4 mr-lg-4 p-1 pl-4 pr-4 " style="border-radius: 10px;margin: 5%;">
 <div class="container hvr-float-shadow ml-lg-5 ml-sm-1 pl-sm-1">
   
-  <h2 class="h2-responsive pt-2" style="color: green;font-family: 'Lato', sans-serif;"><strong>Contact</strong></h2>
+  <h3 class="h3-responsive pt-2" style="color: green;font-family: 'Lato', sans-serif;"><strong>Contact</strong></h3>
   <div class="container ">
     
     
+    <h6 class="h6-responsive pt-2" style="color: black;">Convenor-ICACII</h6>
     
-    
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Anurag Group of Institutions</strong></h5>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Venkatapur (V), Ghatkesar (M),</strong></h5>
-    <h5 class="h5-responsive pt-2" style="color: black;"><strong>Medchal District, Hyderabad,Telangana, India-500 088.</strong></h5>
-    <h5 class="h6-responsive pt-2" style="color: black;"><strong>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></strong></h5>
-
+    <h6 class="h6-responsive pt-2" style="color: black;">Anurag Group of Institutions</h6>
+    <h6 class="h6-responsive pt-2" style="color: black;">Venkatapur, Ghatkesar,</h6>
+    <h6 class="h6-responsive pt-2" style="color: black;">Medchal District, Hyderabad,Telangana, India-500 088.</h6>
+    <h6 class="h6-responsive pt-2" style="color: black;">Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h6>
+<br><br><br><br><br><br><br>
 
     
   </div>

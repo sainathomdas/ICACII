@@ -30,7 +30,6 @@
     }
 
     @media (max-width: 559px) {
-
       html,
       body,
       header,
@@ -164,7 +163,7 @@
   aria-haspopup="true" aria-expanded="false">Download
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+  <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -198,7 +197,9 @@
     <h3 class="h3-responsive" style="color: #0d47a1;"><strong>Call for Papers</strong></h3>
     <p class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
       The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink.</strong></b><br>
+      <center>
       <a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank">Submit your paper now</a>
+      </center>
     </p>
     <br>
 
@@ -251,7 +252,7 @@
       <div class="tab-pane fade pl-4 pr-4 pt-0" id="authorInstructions" role="tabpanel" aria-labelledby="paperSubmission"  style="font-family: 'Lato', sans-serif;">
         <h5 style="color: black;">Manuscript Preparation</h5>
         <p>
-          The manuscript should be prepared in <a href="https://www.springer.com/series/15179" target="_blank"> Springer</a> format using <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/3318/data/v4"> MS WORD </a>and/or <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/20568/data/v8"> LaTeX template </a>available respectively in MS word (.doc).
+          The manuscript should be prepared in <a href="https://www.springer.com/series/15179" target="_blank"> Springer</a> format using <a href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc"> MS WORD </a>and/or <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/20568/data/v8"> LaTeX template </a>available respectively in MS word (.doc).
           The guidelines given here may help you to prepare the manuscript. You are advised to go through Manuscript Guidelines and Key Style Points provided by Springer for a flawless representation of your work in the article. These templates and guidelines can also be found in publisher's homepage (link here) by clicking on 'Instructions for Authors' section
           The articles should be own work of the authors. If any work is referred from others (or some other work by the author), proper acknowledgement should be given. Plagiarism of any type, if detected, will lead to rejection of the articles anytime.
         </p>
@@ -272,7 +273,7 @@
         <p>
           <h6 style="color: black;"><b>Preparing Camera Ready Paper:</b></h6>
 
-          The final camera-ready copy of the papers must be in Springer format with a length of maximum 10 pages. Over-length charges will apply for each extra page beyond 6 pages. However, it is desired that maximum number of pages in an article should not exceed 10 pages in any circumstance
+          The final camera-ready copy of the papers must be in Springer format with a length of minimum 2 and maximum 8 pages. Over-length charges will apply for each extra page beyond 6 pages. However, it is desired that maximum number of pages in an article should not exceed 8 pages in any circumstance
         </p>
         <p>
           <h6 style="color: black;"><b>Paying Registration Fee:</b></h6>

@@ -168,7 +168,7 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+   <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -228,7 +228,7 @@
         <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h4>
       </a>
         <p style="color: black;"><strong>
-         <h5 style="color: black;">Venkatapur (V), Ghatkesar (M),</h5>
+         <h5 style="color: black;">Venkatapur, Ghatkesar,</h5>
          <h5 style="color: black;"> Medchal District, Hyderabad,</h5>
          <h5 style="color: black;">Telangana, India. 500 088.</h5>
          <h5 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h5>
@@ -244,12 +244,12 @@
   </div>
   <!-- Grid row -->
 
-
-<div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;" style="font-family: 'Lato', sans-serif;">
+<center>
+<div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 col-lg-8" style="border-radius: 10px;" style="font-family: 'Lato', sans-serif;">
 
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.825998838611!2d78.65396351443935!3d17.420136088059014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb76730bf4dccf%3A0x2ca84b53416f0abd!2sAnurag+Group+of+Institutions!5e0!3m2!1sen!2sin!4v1494509805990" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 </div>
-
+</center>
 
 <div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;" style="font-family: 'Lato', sans-serif;">
 

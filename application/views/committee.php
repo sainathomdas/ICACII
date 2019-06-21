@@ -151,7 +151,7 @@
     aria-haspopup="true" aria-expanded="false">Download
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+    <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -183,8 +183,8 @@
 
 <div class="jumbotron">
   <center>
-    <h2 class="h2-responsive ml-lg-4" style="color: #0d47a1;font-family: 'Baloo Bhai', cursive;"><strong>Organising Committee</strong></h2></center>
-    <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Cheif patron</strong></h3>
+    <h2 class="h2-responsive ml-lg-4" style="color: #0d47a1;"><strong>Organising Committee</strong></h2></center>
+    <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Cheif patron</strong></h3>
     <div class="container ">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
@@ -216,7 +216,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-         <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Patron</strong></h3>
+         <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patron</strong></h3>
          <div class="card">
           <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
           <div class="card-body">
@@ -227,7 +227,7 @@
       </div>
 
       <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-       <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>General Chair</strong></h3>
+       <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>General Chair</strong></h3>
        <div class="card">
         <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="General_Chair">
         <div class="card-body">
@@ -247,7 +247,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-     <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Program Chair</strong></h3>
+     <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Program Chair</strong></h3>
      <div class="card">
       <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
       <div class="card-body">
@@ -277,7 +277,7 @@
 
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Steering Committee</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Steering Committee</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -312,7 +312,7 @@
 
 <!--advisory board international-->
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>ADVISORY BOARD-INTERNATIONAL</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>ADVISORY BOARD-INTERNATIONAL</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -364,7 +364,7 @@
 
 <!--ADVISORY BOARD-NATIONAL-->
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>ADVISORY BOARD-NATIONAL</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>ADVISORY BOARD-NATIONAL</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -411,7 +411,7 @@
 <!--ORGANIZING COMMITTEE-->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>ORGANIZING COMMITTEE</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>ORGANIZING COMMITTEE</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -462,7 +462,7 @@
 <!--WEB & PUBLICITY - INTERNATIONAL-->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>PROGRAM COMMITTEE </strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>PROGRAM COMMITTEE </strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -493,7 +493,7 @@
 <!--PUBLICATION COMMITTEE CHAIR-->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>PUBLICATION COMMITTEE</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>PUBLICATION COMMITTEE</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -517,7 +517,7 @@
 <!-- PUBLICITY COMMITTEE CHAIR INTERNATIONAL -->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>PUBLICITY COMMITTEE INTERNATIONAL</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>PUBLICITY COMMITTEE INTERNATIONAL</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -542,7 +542,7 @@
 <!-- PUBLICITY COMMITTEE CHAIR NATIONAL -->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>PUBLICITY COMMITTEE NATIONAL</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>PUBLICITY COMMITTEE NATIONAL</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -571,7 +571,7 @@
 <!-- SPONSORSHIP COMMITTEE CHAIR -->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>SPONSORSHIP COMMITTEE</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>SPONSORSHIP COMMITTEE</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -593,7 +593,7 @@
 <!-- ACCOMMODATION COMMITTEE CHAIR -->
 
 <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>ACCOMMODATION COMMITTEE</strong></h3></center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>ACCOMMODATION COMMITTEE</strong></h3></center>
   <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
     <tbody>
@@ -616,7 +616,7 @@
   <!-- ORGANIZING COMMITTEE – LOCAL -->
 
   <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-    <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>ORGANIZING COMMITTEE – LOCAL</strong></h3></center>
+    <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>ORGANIZING COMMITTEE – LOCAL</strong></h3></center>
     <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
       <tbody>
@@ -647,7 +647,7 @@
 
  <!--technical committee-->
  <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>TECHNICAL PROGRAM COMMITTEE</strong></h3>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>TECHNICAL PROGRAM COMMITTEE</strong></h3>
   <p>(Under construction)</p></center>
 </div>
 <!--end of technical committee-->

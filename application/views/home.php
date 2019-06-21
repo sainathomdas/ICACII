@@ -150,7 +150,7 @@
     aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Paper format</a>
+  <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
@@ -207,7 +207,7 @@
 
       <!-- Time Counter -->
       <center>
-        <h1 style="font-family: 'Stylish',sans-serif;font-style: italic;">Dec 20-21,2019</h1></center>
+        <h1 style="font-family: 'Stylish',sans-serif;">Dec 20-21,2019</h1></center>
 
         <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions, Hyderabad</h1>
 
@@ -237,7 +237,7 @@
   </div>
   <!-- Full Page Intro -->
 
-  <div class="container">
+  <div class="container" >
 
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
@@ -254,12 +254,12 @@
             </p></strong>
           </div>
           <br>
-          <div class="jumbotron raisedbox hoverable" style="border-radius: 10px;"> 
+          <div class="jumbotron raisedbox " style="border-radius: 10px;"> 
             <div class="row" ><div class="offset-sm-1 col-sm-10">
              <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Venue :</h2>
              <h3 class="h3 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i>&nbsp; Anurag Group of Institutions</h3>
              <strong>
-              <p class=" mb-4" style="color: black;">&nbsp;Venkatapur (V), Ghatkesar (M),</p>
+              <p class=" mb-4" style="color: black;">&nbsp;Venkatapur, Ghatkesar,</p>
               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</p> 
               <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</p> 
               <p class=" mb-4" style="color: black;">&nbsp;Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></p> 
