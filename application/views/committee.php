@@ -72,7 +72,23 @@
     .navbar-brand{
       margin-left: 3%;
     }
-
+    .card-img-top{
+      padding-top:2vh;
+      height:auto;
+      width:50%;
+    }
+    .card {
+      
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .card-title{
+      font-size: 18px;
+    }
+    .card-subtitle{
+      font-size: 14px;
+    }
 
   </style>
 
@@ -183,13 +199,13 @@
 
 <div class="jumbotron">
   <center>
-    <h2 class="h2-responsive ml-lg-4" style="color: #0d47a1;"><strong>Organising Committee</strong></h2></center>
-    <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Cheif patron</strong></h3>
+    <h2 class="h2-responsive ml-lg-4 pb-5" style="color: #0d47a1;"><strong>Organising Committee</strong></h2></center>
+    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Cheif patron</strong></h3>
     <div class="container ">
-      <div class="row">
+      <div class="row justify-content-center align-items-center pb-5">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
           <div class="card ">
-            <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Chairman">
+            <img class="card-img-top "   src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Chairman">
             <div class="card-body">
               <h4 class="card-title" style="color: black;">Dr. Palla Rajeshwar Reddy</h4>
               <h6 class="card-subtitle mb-2 text-body">Chairman, Anurag Group of Institutions</h6>
@@ -199,7 +215,7 @@
 
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
           <div class="card ">
-            <img class="card-img-top img-thumbnail "  src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Secretary">
+            <img class="card-img-top "  src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Secretary">
             <div class="card-body">
               <h4 class="card-title" style="color: black;">Ms. S. Neelima</h4>
               <h6 class="card-subtitle mb-2 text-body">Secretary, Anurag Group of Institutions </h6>
@@ -214,11 +230,11 @@
     <hr>
     <!--patron and gen chair-->
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center align-items-center pb-5">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
          <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patron</strong></h3>
          <div class="card">
-          <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
+          <img class="card-img-top "   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
           <div class="card-body">
             <h4 class="card-title" style="color: black;">Dr. K. S. Rao</h4>
             <h6 class="card-subtitle mb-2 text-body">Director, Anurag Group of Institutions</h6>
@@ -229,7 +245,7 @@
       <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
        <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>General Chair</strong></h3>
        <div class="card">
-        <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="General_Chair">
+        <img class="card-img-top "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="General_Chair">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">Dr. V. Vijaya Kumar</h4>
           <h6 class="card-subtitle mb-2 text-body">Dean, CSE & IT, Anurag Group of Institutions</h6>
@@ -245,11 +261,12 @@
 
 
 <div class="container">
-  <div class="row">
+  <div class="row justify-content-center align-items-center pb-5">
+
     <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
      <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Program Chair</strong></h3>
      <div class="card">
-      <img class="card-img-top img-thumbnail "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
+      <img class="card-img-top "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
       <div class="card-body">
         <h4 class="card-title" style="color: black;">Dr. G. Vishnu Murthy</h4>
         <h6 class="card-subtitle mb-2 text-body">Deputy Director, Anurag Group of Institutions</h6>
@@ -258,7 +275,7 @@
   </div>
 
   <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-   <h3 class="h3-responsive ml-lg-4" style="color: green;font-family: 'Baloo Bhai', cursive;"><strong>Convenor</strong></h3>
+   <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Convenor</strong></h3>
    <div class="card">
     <img class="card-img-top img-thumbnail" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep.jpg');?>" alt="Convenor"  >
     <div class="card-body">
@@ -266,7 +283,7 @@
       <h6 class="card-subtitle mb-2 text-body">Professor, CSE, Anurag Group of Institutions</h6>
     </div>
   </div>
-</div>
+  </div>
 
 </div>
 </div>
