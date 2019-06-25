@@ -198,7 +198,7 @@
     <p class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
       The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink.</strong></b><br>
       <center>
-      <a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank">Submit your paper now</a>
+      <a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank" class="btn btn-success">Submit your paper now</a>
       </center>
     </p>
     <br>
