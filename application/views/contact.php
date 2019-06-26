@@ -223,15 +223,15 @@
 
       <div class="jumbotron box">
            <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Contact :</h2>
-        <h4 class="h4 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h4>
+           <h5 class="h5 mb-4" style="color: black;">Convenor-ICACII</h5>
+        <h5 class="h5 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h5>
       </a>
-        <p style="color: black;"><strong>
+
          <h5 style="color: black;">Venkatapur, Ghatkesar,</h5>
          <h5 style="color: black;"> Medchal District, Hyderabad,</h5>
          <h5 style="color: black;">Telangana, India. 500 088.</h5>
          <h5 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h5>
-        </strong> </p>
-
+    
 
       </div>
 
