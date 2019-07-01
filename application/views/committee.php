@@ -564,16 +564,20 @@
 
     <tbody>
       <tr>
-        <td>  Dr. Prashanth Rao, Professor<span class="text-muted">(Publicity Committee Chair National)</span></td>
-        <td> Dr. A Mallikarjuna Reddy, Assoc. Professor<span class="text-muted">(Publicity Committee Chair National)</span></td>
+        <td>Dr.Tilottama Goswami, Professor</td>
+        <td>  Dr. Prashanth Rao, Professor</td>
+        
       </tr><tr>
+        <td> Dr. A Mallikarjuna Reddy, Assoc. Professor</td>
         <td> Mrs. G Bindu Madhavi, Assoc. Prof.</td>
-        <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
+       
       </tr><tr>
+         <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
         <td> Mr. B. Ravinder Reddy, Asst. Prof.</td>
-        <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
+        
       </tr><tr>
-        <td colspan="2"> Mr. G. Balram, Asst. Prof.</td>
+        <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
+        <td > Mr. G. Balram, Asst. Prof.</td>
 
 
       </tr>
