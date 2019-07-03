@@ -103,7 +103,8 @@
     <div class="container-fluid">
 
 
-      <a title="Home" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
+         ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -122,7 +123,7 @@
           </a>
         </li>
         <li class="nav-item cool-link">
-          <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+          <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
         </li>
 
 
@@ -182,7 +183,7 @@
 </li>
 
 <li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact us</a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact Us</a>
 </li>
 </ul>
 </div>
@@ -196,7 +197,7 @@
   <div class="jumbotron hoverable">
     <h3 class="h3-responsive" style="color: #0d47a1;"><strong>Call for Papers</strong></h3>
     <p class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
-      The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be published in  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink.</strong></b><br>
+      The aim of the 1st International Conference on Advances in Computational Intelligence and Informatics (ICACII- 2019), is to provide a platform for researchers, scientists, technocrats, academicians and engineers to exchange their innovative ideas and new research findings in the field of Computational Intelligence and Informatics till the end of 2019. The conference will boost excellent innovations in terms of day to day life and academics. The proceedings of the conference will unleash a package platform for innovative ideas into a single unit. Prospective authors are invited to submit manuscripts reporting original unpublished research and recent developments in the topics related to the field of Computational Intelligence and Informatics. All the submitted papers will be double blind peer reviewed by Technical Reviewer Committee. All accepted & registered high-quality papers will be submitted to  <b><strong> Springer “Lecture Notes in Networks and Systems” indexed in ISI Proceedings, SCOPUS, Google Scholar and Springerlink</strong></b> for publication.<br>
       <center>
       <a href="https://easychair.org/account/signin?l=W7DWJ73tNHS0coVuVD4X0U" target="_blank" class="btn btn-success">Submit your paper now</a>
       </center>
@@ -273,12 +274,12 @@
         <p>
           <h6 style="color: black;"><b>Preparing Camera Ready Paper:</b></h6>
 
-          The final camera-ready copy of the papers must be in Springer format with a length of minimum 2 and maximum 8 pages. Over-length charges will apply for each extra page beyond 6 pages. However, it is desired that maximum number of pages in an article should not exceed 8 pages in any circumstance
+          The final camera-ready copy of the papers must be in Springer format with a length of minimum 4 and maximum 8 pages. Over-length charges will apply for each extra page beyond 6 pages. However, it is desired that maximum number of pages in an article should not exceed 8 pages in any circumstance
         </p>
         <p>
           <h6 style="color: black;"><b>Paying Registration Fee:</b></h6>
 
-          Calculate the registration fee according to your page length and type of authorship as directed in REGISTRATION page and make payment using Foreign Telegraphic Transfer or Direct Transfer or NEFT Transfer or Wire transfer (preferable). Do not forget to keep the pay-in-slip or online payment receipt. You need the scanned copy of it to complete next steps.
+          Calculate the registration fee according to your page length and type of authorship as directed in REGISTRATION page. Payment details will be updated soon.
         </p>
         <p>
           <h6 style="color: black;"><b>Filling up of the Registration Form:</b></h6>

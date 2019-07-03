@@ -107,7 +107,8 @@
     <div class="container-fluid">
 
 
-      <a title="Home" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
+         ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -126,7 +127,7 @@
           </a>
         </li>
       <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
           </li>
 
       <li class="nav-item dropdown cool-link">
@@ -185,7 +186,7 @@
 </li>
 
 <li class="nav-item cool-link active">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact us</a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact Us</a>
 </li>
 </ul>
 </div>
@@ -205,7 +206,7 @@
     <div class="col-md-5 offset-md-1 mx-3 my-3">
 
       <!-- Featured image -->
-      <div class=" overlay">
+      <div class=" ">
         <iframe style="width: 100%;" height="300" src="https://www.youtube.com/embed/ZPPy8bL_lv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
       </div>
@@ -221,15 +222,15 @@
 
      
 
-      <div class="jumbotron box">
-           <h2 class="h2 mb-4" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Contact :</h2>
-           <h5 class="h5 mb-4" style="color: black;">Convenor-ICACII</h5>
-        <h5 class="h5 mb-4" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h5>
+      <div class="jumbotron p-4">
+           <h2 class="h2 mb-2 p-0" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Contact :</h2>
+           <h5 class="h5 mb-2" style="color: black;">Convenor-ICACII</h5>
+        <h5 class="h5" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h5>
       </a>
 
          <h5 style="color: black;">Venkatapur, Ghatkesar,</h5>
          <h5 style="color: black;"> Medchal District, Hyderabad,</h5>
-         <h5 style="color: black;">Telangana, India. 500 088.</h5>
+         <h5 style="color: black;">Telangana, India - 500 088.</h5>
          <h5 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h5>
     
 

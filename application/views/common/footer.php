@@ -1,4 +1,6 @@
+<?php $this->load->view('pop');?>
 <footer id="main-footer footer" style="bottom:0;margin: 0;padding: 0;width: 100%; font-size: 14px;font-family: 'Lato', sans-serif; " class="bg-dark">
+  
   <style type="text/css">
   
   h1,h3,h2,h5,h4,h6,ul a,.black{
@@ -21,7 +23,7 @@
         <li class="li" style="color: white">Convenor-ICACII</li>
       <li class="li" style="color: white">Anurag Group of Institutions</li>
       <li class="li" style="color: white">Email : <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></li>
-      <li class="li" style="color: white">Phone Number: +91 98850 10285</li>
+      <li class="li" style="color: white">Phone Number: +91 70329 29075</li>
       </ul>   
       
              
@@ -41,7 +43,9 @@
         <li class="li"><a href="<?php echo base_url('index.php/Program');?>">Program</a></li>
         <li class="li"><a href="<?php echo base_url('index.php/Registration');?>">Registration</a></li>
         <li class="li"><a href="<?php echo base_url('index.php/Venue');?>">Local Information</a></li>
-        <li class="li"><a href="<?php echo base_url('index.php/Contact');?>">Contact us</a></li>                 
+        <!--<li class="li"><a href="<?php //echo base_url('index.php/Contact');?>">Contact us</a></li> -->
+        <li class="li"><a class="" href="#popup1">Visitors</a>
+</li>                
       </ul>   
     </div>
       

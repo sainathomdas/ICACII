@@ -89,7 +89,7 @@
     <div class="container-fluid">
 
 
-      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><strong>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
          ICACII</strong></a>
 
       <!-- Collapse -->
@@ -109,7 +109,7 @@
           </a>
         </li>
        <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>"><strong>About us</strong></a>
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>"><strong>About Us</strong></a>
           </li>
 
       <li class="nav-item dropdown cool-link">
@@ -170,7 +170,7 @@
 </li>
 
 <li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>"><strong>Contact us</strong></a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>"><strong>Contact Us</strong></a>
 </li>
 </ul>
 
@@ -181,6 +181,8 @@
 </div>
 </nav>
 <!-- Navbar -->
+
+<div class="navbarMargin_home"></div>
 
 
 <!-- Full Page Intro -->
@@ -198,8 +200,7 @@
   <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
     <!-- Content -->
-    <div class="text-center white-text mx-5 wow fadeIn ">
-
+    <div class="text-center white-text mx-5 wow fadeIn mt-lg-5 pt-lg-5">
       <h4 class="display-4" style="font-family: 'Merriweather', sans-serif;"> <strong><br>1<sup>st</sup> International Conference <br></strong></h4>
       <span style="font-family: 'Stylish', sans-serif;" class="display-4">on</span> 
       <h1 class="display-2">
@@ -208,7 +209,7 @@
 
       <!-- Time Counter -->
       <center>
-        <h1 style="font-family: 'Stylish',sans-serif;">Dec 20-21,2019</h1></center>
+        <h1 style="font-family: 'Stylish',sans-serif;">Dec 20-21, 2019</h1></center>
 
         <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions, Hyderabad</h1>
 

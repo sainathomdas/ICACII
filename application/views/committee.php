@@ -25,6 +25,12 @@
     .top-nav-collapse {
       background-color: black;
     }
+
+.card{
+  height: 250px;
+  width: 300px;
+}
+
     html,
     body,
     header,
@@ -107,7 +113,8 @@
     <div class="container-fluid">
 
 
-      <a title="Home" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
+         ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -126,7 +133,7 @@
           </a>
         </li>
        <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
           </li>
 
 
@@ -186,7 +193,7 @@
 </li>
 
 <li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact us</a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact Us</a>
 </li>
 </ul>
 </div>
@@ -199,13 +206,13 @@
 
 <div class="jumbotron">
   <center>
-    <h2 class="h2-responsive ml-lg-4 pb-5" style="color: #0d47a1;"><strong>Organising Committee</strong></h2></center>
-    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Cheif patron</strong></h3>
+    <h2 class="h2-responsive ml-lg-4 pt-0 mt-0" style="color: #0d47a1;"><strong>Organizing Committee</strong></h2></center>
+    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Chief patron</strong></h3>
     <div class="container ">
-      <div class="row justify-content-center align-items-center pb-5">
+      <div class="row justify-content-center align-items-center ">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
           <div class="card ">
-            <img class="card-img-top "   src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Chairman">
+            <img class="card-img-top rounded-circle "   src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Chairman">
             <div class="card-body">
               <h4 class="card-title" style="color: black;">Dr. Palla Rajeshwar Reddy</h4>
               <h6 class="card-subtitle mb-2 text-body">Chairman, Anurag Group of Institutions</h6>
@@ -213,15 +220,6 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-          <div class="card ">
-            <img class="card-img-top "  src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Secretary">
-            <div class="card-body">
-              <h4 class="card-title" style="color: black;">Ms. S. Neelima</h4>
-              <h6 class="card-subtitle mb-2 text-body">Secretary, Anurag Group of Institutions </h6>
-            </div>
-          </div>
-        </div>
 
 
       </div>
@@ -230,11 +228,25 @@
     <hr>
     <!--patron and gen chair-->
     <div class="container">
+      <center>
+  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patrons</strong></h3>
       <div class="row justify-content-center align-items-center pb-5">
+
+         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
+          <div class="card ">
+            <img class="card-img-top rounded-circle"  src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Secretary">
+            <div class="card-body">
+              <h4 class="card-title" style="color: black;">Ms. S. Neelima</h4>
+              <h6 class="card-subtitle mb-2 text-body">Secretary, Anurag Group of Institutions </h6>
+            </div>
+          </div>
+        </div>
+
+
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-         <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patron</strong></h3>
+       
          <div class="card">
-          <img class="card-img-top "   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
+          <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
           <div class="card-body">
             <h4 class="card-title" style="color: black;">Dr. K. S. Rao</h4>
             <h6 class="card-subtitle mb-2 text-body">Director, Anurag Group of Institutions</h6>
@@ -242,10 +254,18 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
+      
+       
+</div>
+
+
+
+
+
+      <div class="row col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
        <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>General Chair</strong></h3>
        <div class="card">
-        <img class="card-img-top "   src="<?php echo base_url('assets/images/pp.jpg');?>" alt="General_Chair">
+        <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/vijay.png');?>" alt="General_Chair">
         <div class="card-body">
           <h4 class="card-title" style="color: black;">Dr. V. Vijaya Kumar</h4>
           <h6 class="card-subtitle mb-2 text-body">Dean, CSE & IT, Anurag Group of Institutions</h6>
@@ -253,7 +273,7 @@
       </div>
     </div>
   </div>
-</div>
+
 
 <!--end of patron and gen chair-->
 <hr>
@@ -261,12 +281,12 @@
 
 
 <div class="container">
-  <div class="row justify-content-center align-items-center pb-5">
+  <div class="row justify-content-center align-items-center pb-3">
 
     <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
      <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Program Chair</strong></h3>
      <div class="card">
-      <img class="card-img-top "   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
+      <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
       <div class="card-body">
         <h4 class="card-title" style="color: black;">Dr. G. Vishnu Murthy</h4>
         <h6 class="card-subtitle mb-2 text-body">Deputy Director, Anurag Group of Institutions</h6>
@@ -277,7 +297,7 @@
   <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
    <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Convenor</strong></h3>
    <div class="card">
-    <img class="card-img-top img-thumbnail" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep.jpg');?>" alt="Convenor"  >
+    <img class="card-img-top rounded-circle" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep1.jpg');?>" alt="Convenor"  >
     <div class="card-body">
       <h4 class="card-title" style="color: black;">Dr. Sandeep Singh Rawat</h4>
       <h6 class="card-subtitle mb-2 text-body">Professor, CSE, Anurag Group of Institutions</h6>
@@ -287,8 +307,8 @@
 
 </div>
 </div>
-
-
+<hr>
+</center>
 <!--End of Program chair and convenor -->
 <!--steering committee-->
 
@@ -515,7 +535,7 @@
 
     <tbody>
       <tr>
-        <td>Dr. Sandeep Singh Rawat, Professor<span class="text-muted">(Publication committee chair)</span></td>
+        <td>Dr. Sandeep Singh Rawat, Professor<span class="text-muted"><bR>(Publication committee chair)</span></td>
         <td> Mr. V. Rama Krishna, Assoc. Prof.</td>
       </tr><tr>
        <td> Mrs. M Madhavi, Assoc. Prof.</td>
@@ -539,14 +559,18 @@
 
     <tbody>
       <tr>
-        <td>  Dr. C. Pavan Kumar, Assoc. Professor<span class="text-muted">(Publicity Committee Chair International)</span></td>
+        <td>  Dr. C. Pavan Kumar, Assoc. Professor<span class="text-muted"><Br>(Publicity Committee Chair International)</span></td>
         <td>  Mrs. D. Lakshmi Padmaja, Assoc. Prof.</td>
       </tr><tr>
         <td>  Mrs. P. Srilatha, Assoc. Prof.</td>
-        <td>  Mrs. V. Jyothi, Assoc. Prof.</td>
+          <td>Dr.Tilottama Goswami, Professor</td>
+       
       </tr><tr>
-        <td>Mr. P Ravi, Asst. Prof.</td>
-        <td>   Mr. G Bala Krishna, Asst. Prof.</td>
+         <td>  Mrs. V. Jyothi, Assoc. Prof.</td>
+        <td>Mr. P Ravi, Asst. Prof.</td></tr>
+        <tr>
+
+        <td colspan="2">  Mr. G Bala Krishna, Asst. Prof.</td>
 
       </tr>
     </tbody>
@@ -564,20 +588,20 @@
 
     <tbody>
       <tr>
-        <td>Dr.Tilottama Goswami, Professor</td>
-        <td>  Dr. Prashanth Rao, Professor</td>
-        
-      </tr><tr>
-        <td> Dr. A Mallikarjuna Reddy, Assoc. Professor</td>
-        <td> Mrs. G Bindu Madhavi, Assoc. Prof.</td>
        
+        <td>  Dr. Prashanth Rao, Professor</td>
+             <td> Dr. A Mallikarjuna Reddy, Assoc. Professor</td>
       </tr><tr>
-         <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
+   
+        <td> Mrs. G Bindu Madhavi, Assoc. Prof.</td>
+             <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
+      </tr><tr>
+   
         <td> Mr. B. Ravinder Reddy, Asst. Prof.</td>
-        
+          <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
       </tr><tr>
-        <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
-        <td > Mr. G. Balram, Asst. Prof.</td>
+      
+        <td colspan="2"> Mr. G. Balram, Asst. Prof.</td>
 
 
       </tr>
@@ -597,7 +621,7 @@
 
     <tbody>
       <tr>
-        <td>  Mr. P. Ravinder Rao, Assoc. Professor<span class="text-muted">(Sponsorship Committee Chair)</span></td>
+        <td>  Mr. P. Ravinder Rao, Assoc. Professor<span class="text-muted"><br>(Sponsorship Committee Chair)</span></td>
         <td>  Mr. J. Siva Prashanth, Assoc. Prof.</td>
       </tr><tr>
         <td>  Mrs. S. Deepika, Asst. Prof.</td>
@@ -619,7 +643,7 @@
 
     <tbody>
       <tr>
-       <td> Dr. A. Obulesh, Assoc. Professor<span class="text-muted">(Accommodation Committee Chair)</span></td>
+       <td> Dr. A. Obulesh, Assoc. Professor<span class="text-muted"><br>(Accommodation Committee Chair)</span></td>
        <td>Mr. V. Amarnadh, Asst. Prof.</td></tr><tr>
          <td> Mr. Jayendra Kumar, Asst. Prof.</td>
          <td> Mr. Madar Bandu, Asst. Prof.</td></tr><tr>

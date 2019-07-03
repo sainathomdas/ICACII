@@ -109,7 +109,8 @@
     <div class="container-fluid">
 
 
-      <a title="Home" href="<?php echo base_url('index.php/Home');?>"  class="navbar-brand"><strong>ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
+         ICACII</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -128,7 +129,7 @@
           </a>
         </li>
       <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About us</a>
+            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
           </li>
 
       <li class="nav-item dropdown cool-link">
@@ -187,7 +188,7 @@
 </li>
 
 <li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact us</a>
+  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact Us</a>
 </li>
 </ul>
 </div>
