@@ -238,6 +238,7 @@
           <td></td>
 
         </tr>
+        <!--
         <tr>
           <th >Additional Page charges 
           [same author , limited to 1 page]</th>
@@ -247,6 +248,8 @@
           <td></td>
 
         </tr>
+
+      -->
         <tr>
           <th >Second and subsequent papers by same authors</th>
           <td>6000</td>
