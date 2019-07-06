@@ -26,10 +26,7 @@
       background-color: black;
     }
 
-.card{
-  height: 250px;
-  width: 300px;
-}
+
 
     html,
     body,
@@ -113,8 +110,8 @@
     <div class="container-fluid">
 
 
-      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
-         ICACII</strong></a>
+    <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive p-0"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 16%; height: auto;"><strong>
+      ICACII-2019</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -207,7 +204,7 @@
 <div class="jumbotron">
   <center>
     <h2 class="h2-responsive ml-lg-4 pt-0 mt-0" style="color: #0d47a1;"><strong>Organizing Committee</strong></h2></center>
-    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Chief patron</strong></h3>
+    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Chief Patron</strong></h3>
     <div class="container ">
       <div class="row justify-content-center align-items-center ">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
@@ -284,7 +281,9 @@
   <div class="row justify-content-center align-items-center pb-3">
 
     <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-     <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Program Chair</strong></h3>
+
+     <h3 class="h3-responsive ml-lg-1 text-center mr-lg-5" style="color: green;"><strong>Program Chair</strong></h3>
+
      <div class="card">
       <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/vishnu.jpg');?>" alt="Program_chair">
       <div class="card-body">
@@ -293,9 +292,10 @@
       </div>
     </div>
   </div>
-
+  
   <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-   <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Convenor</strong></h3>
+    
+   <h3 class="h3-responsive ml-lg-1  text-center mr-lg-5" style="color: green;"><strong>Convenor</strong></h3>
    <div class="card">
     <img class="card-img-top rounded-circle" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep1.jpg');?>" alt="Convenor"  >
     <div class="card-body">

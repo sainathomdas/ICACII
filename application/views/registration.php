@@ -91,8 +91,8 @@
     <div class="container-fluid">
 
 
-      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 20%; height: auto;"><strong>
-         ICACII</strong></a>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive p-0"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 16%; height: auto;"><strong>
+      ICACII-2019</strong></a>
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -182,7 +182,7 @@
 
 <div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;">
 
-  <h3 class="h3-responsive pt-2" style="color: #0d47a1;"><strong>Registration</strong></h3>
+  <h3 class="h3-responsive pt-4" style="color: #0d47a1;"><strong>Registration</strong></h3>
 
   <h5 class="p-2 text-justify text-body " style="font-family: 'Lato', sans-serif;">
     Registration charges for paper publications :
@@ -275,8 +275,8 @@
     </li>
     <li><p>Co-authors can attend and avail participation certificates by paying Rs.1,500 /- , provided one author of the same paper is registered by paying full registration fee.</p></li>
     <li><p>Separate Registration forms for Author and Co-Author(s), Only Registered co-Authors have to submit the Co-author Registration form.</p></li>
-    <li><p>Authors are requested to send Springer(under process) copyright form, Registration forms, Camera ready paper (both in .doc and .pdf xpress) and Scanned copy of DD in a single Zip file. The file should be named as icacii_PAPERID. (Ex. icacii_23).</p></li>
-    <li><p>Publication and Indexing: The Accepted and presented papers will be archived in Springer(under process) and will be indexed by Scopus.</p></li>
+    <li><p>Authors are requested to send Springer copyright form, Registration forms, Camera ready paper (both in .doc and .pdf xpress) and Scanned copy of DD in a single Zip file. The file should be named as icacii_PAPERID. (Ex. icacii_23).</p></li>
+    <li><p>Publication and Indexing: The Accepted and presented papers will be archived in Springer and will be indexed by Scopus.</p></li>
     
 </ul>
   
