@@ -180,9 +180,10 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
           <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+      
 </div>
 </li>
 
@@ -200,6 +201,16 @@
 
 
 <div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;" style="font-family: 'Lato', sans-serif;">
+
+<hr id="visaInfo"><br>
+<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
+<br>
+<p class="text-justify" style="font-family: 'Lato', sans-serif;">Request for an invitation to obtain VISA may be made through an e-mail to Convenor (convenor_icacii@cvsr.ac.in) attaching first and last papers of your passport. You will receive the official invitation within three working days.
+
+Please note that this invitation will be given to only registered delegates and invited speakers of ICACII 2019.  </p>
+<hr>
+
+
 
   <h3 class="h3-responsive pt-2 text-left" style="color: #0d47a1;"><strong>Accomodation</strong></h3>
   <p style="font-family: 'Lato', sans-serif;">
@@ -306,15 +317,15 @@
           <h3 >Carousel</h3>
         </div>
       
-    
+    <center>
     <!--         carousel  -->
     <div class="section" id="carousel">
       <div class="container" >
         <div class="row">
-          <div class="col-md-8 mr-auto ml-auto">
+          <div class="col-md-12">
             <!-- Carousel Card -->
             <div class="card card-raised card-carousel">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -373,17 +384,12 @@
       </div>
     </div>
     <!--         end carousel -->
-
+</center>
 </section>
 
   <center><a style="text-align: center;border-radius: 10px;" title="Click here to know more" target="_blank" href = "https://telanganatourism.gov.in/" class="btn btn-success">Hyderabad Tourism Local Information</a></center>
 
 
-
-<hr id="visaInfo"><br>
-<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
-<br>
-<span style="font-size: 16px;">(Under Construction)</span>
 
 
   </div>

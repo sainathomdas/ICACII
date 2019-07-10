@@ -75,6 +75,16 @@
     .navbar-brand{
       margin-left: 3%;
     }
+
+    #preloader {
+    position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+    background: url('<?php echo base_url('assets/images/preloader.gif');?>') center no-repeat #fff;
+}
   </style>
 
 </head>
@@ -163,9 +173,10 @@
   aria-haspopup="true" aria-expanded="false"><strong>Venue and Travel</strong>
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+   <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
   <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-  <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+ 
 </div>
 </li>
 
@@ -190,7 +201,7 @@
 
 
 
-  <video class="video-intro" poster="" playsinline autoplay
+  <video class="video-intro" poster="<?php echo base_url('assets/images/bg.jpg');?>" playsinline autoplay
   muted loop >
   <source src="<?php echo base_url('assets/images/video.mp4');?>" type="video/mp4" controls = "true" autoplay loop>
   </video>

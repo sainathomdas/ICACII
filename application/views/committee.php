@@ -183,9 +183,10 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
- <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+ 
 </div>
 </li>
 
@@ -297,7 +298,7 @@
     
    <h3 class="h3-responsive ml-lg-1  text-center mr-lg-5" style="color: green;"><strong>Convenor</strong></h3>
    <div class="card">
-    <img class="card-img-top rounded-circle" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep1.jpg');?>" alt="Convenor"  >
+    <img class="card-img-top rounded-circle" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep.jpg');?>" alt="Convenor"  >
     <div class="card-body">
       <h4 class="card-title" style="color: black;">Dr. Sandeep Singh Rawat</h4>
       <h6 class="card-subtitle mb-2 text-body">Professor, CSE, Anurag Group of Institutions</h6>

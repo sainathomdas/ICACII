@@ -157,9 +157,10 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
    <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
           <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-          <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+      
 </div>
 </li>
 
@@ -176,13 +177,47 @@
 
 
 
-<div class="jumbotron mb-0 mt-0" style="height: 70vh;">
+<div class="jumbotron pt-5 mt-5" >
+  <!--
   <center>
     <div style="vertical-align: middle;">
       <br><br><br><br><br><br>
       <h3 class="h3-responsive" style="color: #37474F;"><strong>(In progress)</strong></h3>
     </div>
   </center>
+-->
+<style type="text/css">
+  .avatar-flip {
+  border-radius: 90px;
+  overflow: hidden;
+  height: 180px;
+  width: 180px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 13px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+  -moz-box-shadow: 0 0 0 13px #f0f0f0;
+}
+
+</style>
+
+<div class="container">
+  <div class="avatar-flip">
+    <img src="<?php echo base_url('assets/images/che.jpg');?>" height="180" width="180">
+ 
+  </div>
+  <center>
+  <h2 style="color: black">Dr. Salvatore Distefano</h2>
+  </center>
+  <p class="text-justify">Dr. Salvatore Distefano is an Associate Professor at University of Messina, Italy, and Fellow Professor at Kazan Federal University, Russia, head of the Social and Urban Computing Group and of the Cisco Innovation Center in Kazan. He was formerly an Assistant Professor at Politecnico di Milano (2011-2015). In 2001 he got the master degree in Computer Engineering from University of Catania, and then, in 2006, he received the Ph.D degree on Computer Science and Engineering from University of Messina.      </p>
+
+
+  <p class="text-justify">Dr. Salvatore authored and co-authored more than 200 scientific papers and contributions to international journals, conferences and books. He took part to several national and international projects, such as Reservoir, Vision (EU FP7), SMSCOM (EU FP7 ERC Advanced Grant), Beacon, IoT-Open.EU (EU H2020). He is in the editorial boards of IEEE Transactions on Dependable and Secure Computing, International Journal of Performability Engineering, Journal of Cloud Computing, International Journal of Engineering and Industries, International Journal of Big Data, International Journal of Computer Science & Information Technology Applications, International Journal of Distributed Sensor Networks. </p>
+</div>
 </div>
 
 <?php $this->load->view('common/footer.php');?>
