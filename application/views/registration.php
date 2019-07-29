@@ -154,8 +154,7 @@
    <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Brochure</a>
-  </div>
+       <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
 </li>
 
 <li class="nav-item dropdown cool-link">
