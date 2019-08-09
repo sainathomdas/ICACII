@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,7 +79,7 @@
       width:50%;
     }
     .card {
-      
+
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -103,14 +101,14 @@
 
 <body>
 
-<div id="preloader"></div>
+  <div id="preloader"></div>
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " style="background-color: #000009" >
     <div class="container-fluid">
 
 
-    <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive p-0"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 16%; height: auto;"><strong>
+      <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive p-0"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 16%; height: auto;"><strong>
       ICACII-2019</strong></a>
 
       <!-- Collapse -->
@@ -129,36 +127,36 @@
             <span class="sr-only">(current)</span>
           </a>
         </li>
-       <li class="nav-item cool-link">
-            <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
-          </li>
+        <li class="nav-item cool-link">
+          <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
+        </li>
 
 
-      <li class="nav-item dropdown cool-link active">
+        <li class="nav-item dropdown cool-link active">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Committee
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
+          <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
+        </div>
+      </li>
+
+
+      <li class="nav-item dropdown cool-link">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Committee
+        aria-haspopup="true" aria-expanded="false">Program
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
-      </div>
-    </li>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+     </div>
+   </li>
 
-
-    <li class="nav-item dropdown cool-link">
-      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false">Program
-    </a>
-    <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
-    </div>
-  </li>
-
-  <li class="nav-item cool-link ">
+   <li class="nav-item cool-link ">
     <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
   </li>
 
@@ -174,7 +172,7 @@
     <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
-       <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+    <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
   </div>
 </li>
 
@@ -183,10 +181,11 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
- <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
- <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
- 
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">How to reach us?</a>
 </div>
 </li>
 
@@ -205,12 +204,17 @@
 <div class="jumbotron">
   <center>
     <h2 class="h2-responsive ml-lg-4 pt-0 mt-0" style="color: #0d47a1;"><strong>Organizing Committee</strong></h2></center>
-    <h3 class="h3-responsive ml-lg-4 text-center" style="color: green;"><strong>Chief Patron</strong></h3>
-    <div class="container ">
-      <div class="row justify-content-center align-items-center ">
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
+
+
+
+    <div class="container">
+      <center>
+        <h3 class="h3-responsive ml-lg-4 pt-3" style="color: green;"><strong>Chief Patrons</strong></h3>
+        <div class="row justify-content-center align-items-center pb-5">
+
+         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
           <div class="card ">
-            <img class="card-img-top rounded-circle "   src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Chairman">
+            <img class="card-img-top rounded-circle"  src="<?php echo base_url('assets/images/palla.jpg');?>" alt="Secretary">
             <div class="card-body">
               <h4 class="card-title" style="color: black;">Dr. Palla Rajeshwar Reddy</h4>
               <h6 class="card-subtitle mb-2 text-body">Chairman, Anurag Group of Institutions</h6>
@@ -219,30 +223,37 @@
         </div>
 
 
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
 
-      </div>
-    </div>
-    <!--end of cheif patron-->
-    <hr>
-    <!--patron and gen chair-->
-    <div class="container">
-      <center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patrons</strong></h3>
-      <div class="row justify-content-center align-items-center pb-5">
-
-         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-          <div class="card ">
-            <img class="card-img-top rounded-circle"  src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Secretary">
-            <div class="card-body">
-              <h4 class="card-title" style="color: black;">Ms. S. Neelima</h4>
-              <h6 class="card-subtitle mb-2 text-body">Secretary, Anurag Group of Institutions </h6>
-            </div>
+         <div class="card">
+          <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/neelima.jpg');?>" alt="Director">
+          <div class="card-body">
+            <h4 class="card-title" style="color: black;">Ms. S. Neelima</h4>
+            <h6 class="card-subtitle mb-2 text-body">Secretary, Anurag Group of Institutions </h6>
           </div>
         </div>
+      </div>
+
+      
+
+    </div>
+
+
+  </div>
+
+  
+  <!--end of cheif patron-->
+  <hr>
+  <!--patrons-->
+  <div class="container">
+    <center>
+      <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>Patrons</strong></h3>
+      <div class="row justify-content-center align-items-center pb-5">
+
 
 
         <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-       
+
          <div class="card">
           <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/ksrao.jpg');?>" alt="Director">
           <div class="card-body">
@@ -252,28 +263,35 @@
         </div>
       </div>
 
-      
-       
-</div>
-
-
-
-
-
-      <div class="row col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-       <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>General Chair</strong></h3>
-       <div class="card">
-        <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/vijay.png');?>" alt="General_Chair">
-        <div class="card-body">
-          <h4 class="card-title" style="color: black;">Dr. V. Vijaya Kumar</h4>
-          <h6 class="card-subtitle mb-2 text-body">Dean, CSE & IT, Anurag Group of Institutions</h6>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
+        <div class="card ">
+          <img class="card-img-top rounded-circle"  src="<?php echo base_url('assets/images/muthareddy.jpg');?>" alt="Secretary">
+          <div class="card-body">
+            <h4 class="card-title" style="color: black;">Prof. M. Mutha Reddy</h4>
+            <h6 class="card-subtitle mb-2 text-body">Dean of Examinations, Anurag Group of Institutions</h6>
+          </div>
         </div>
+      </div>
+
+
+      
+
+    </div>
+
+    <div class="row col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
+     <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>General Chair</strong></h3>
+     <div class="card">
+      <img class="card-img-top rounded-circle"   src="<?php echo base_url('assets/images/vijay.png');?>" alt="General_Chair">
+      <div class="card-body">
+        <h4 class="card-title" style="color: black;">Dr. V. Vijaya Kumar</h4>
+        <h6 class="card-subtitle mb-2 text-body">Dean, CSE & IT, Anurag Group of Institutions</h6>
       </div>
     </div>
   </div>
+</div>
 
 
-<!--end of patron and gen chair-->
+<!--end of patrons-->
 <hr>
 <!--Program chair and convenor-->
 
@@ -295,7 +313,7 @@
   </div>
   
   <div class="col-sm-12 col-md-6 col-lg-4 mb-2 hvr-shadow-radial" >
-    
+
    <h3 class="h3-responsive ml-lg-1  text-center mr-lg-5" style="color: green;"><strong>Convenor</strong></h3>
    <div class="card">
     <img class="card-img-top rounded-circle" style="max-height: 300px;"  src="<?php echo base_url('assets/images/sandeep.jpg');?>" alt="Convenor"  >
@@ -304,7 +322,7 @@
       <h6 class="card-subtitle mb-2 text-body">Professor, CSE, Anurag Group of Institutions</h6>
     </div>
   </div>
-  </div>
+</div>
 
 </div>
 </div>
@@ -564,12 +582,12 @@
         <td>  Mrs. D. Lakshmi Padmaja, Assoc. Prof.</td>
       </tr><tr>
         <td>  Mrs. P. Srilatha, Assoc. Prof.</td>
-          <td>Dr.Tilottama Goswami, Professor</td>
-       
+        <td>Dr.Tilottama Goswami, Professor</td>
+
       </tr><tr>
-         <td>  Mrs. V. Jyothi, Assoc. Prof.</td>
-        <td>Mr. P Ravi, Asst. Prof.</td></tr>
-        <tr>
+       <td>  Mrs. V. Jyothi, Assoc. Prof.</td>
+       <td>Mr. P Ravi, Asst. Prof.</td></tr>
+       <tr>
 
         <td colspan="2">  Mr. G Bala Krishna, Asst. Prof.</td>
 
@@ -589,19 +607,19 @@
 
     <tbody>
       <tr>
-       
+
         <td>  Dr. Prashanth Rao, Professor</td>
-             <td> Dr. A Mallikarjuna Reddy, Assoc. Professor</td>
+        <td> Dr. A Mallikarjuna Reddy, Assoc. Professor</td>
       </tr><tr>
-   
+
         <td> Mrs. G Bindu Madhavi, Assoc. Prof.</td>
-             <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
+        <td> Mrs. N. Swapna Goud, Assoc. Prof.</td>
       </tr><tr>
-   
+
         <td> Mr. B. Ravinder Reddy, Asst. Prof.</td>
-          <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
+        <td> Mrs. A Durga Bhavani, Asst. Prof.</td>
       </tr><tr>
-      
+
         <td colspan="2"> Mr. G. Balram, Asst. Prof.</td>
 
 
@@ -670,34 +688,66 @@
           <td>Mrs. B. Ujwala, Asst. Prof.</td>
           <td>Mr. G. Kiran Kumar, Asst. Prof.</td></tr><tr>
             <td>Mrs. P. Vinay Sree, Asst. Prof.</td>
-         <td>Mrs. G. Lavanya, Asst. Prof.</td></tr><tr>
-         <td>Mr. V. Rama Krishna, Asst. Prof.</td>
-         <td>Mrs. P Rajeshwari, Asst. Prof.</td></tr><tr>
-         <td>Mr. Ravinder Naik R, Asst. Prof.</td>
-         <td>Mrs. M. Sandhya Rani, Asst. Prof.</td></tr><tr>
-         <td>Mrs. J. Hima Bindu Priyanka, Asst. Prof.</td>
-         <td>Mr. K. Naresh, Asst. Prof.</td></tr><tr>
-        <td> Ms. K. Shanthi Latha, Asst. Prof.</td>
-        <td> Ms. Ch. Hyma, Asst. Prof.</td></tr><tr>
-        <td> Mr. K. Shravan Kumar, Asst. Prof.</td>
-        <td> Mr. N. Ravi, Asst. Prof.</td>
+            <td>Mrs. G. Lavanya, Asst. Prof.</td></tr><tr>
+             <td>Mr. V. Rama Krishna, Asst. Prof.</td>
+             <td>Mrs. P Rajeshwari, Asst. Prof.</td></tr><tr>
+               <td>Mr. Ravinder Naik R, Asst. Prof.</td>
+               <td>Mrs. M. Sandhya Rani, Asst. Prof.</td></tr><tr>
+                 <td>Mrs. J. Hima Bindu Priyanka, Asst. Prof.</td>
+                 <td>Mr. K. Naresh, Asst. Prof.</td></tr><tr>
+                  <td> Ms. K. Shanthi Latha, Asst. Prof.</td>
+                  <td> Ms. Ch. Hyma, Asst. Prof.</td></tr><tr>
+                    <td> Mr. K. Shravan Kumar, Asst. Prof.</td>
+                    <td> Mr. N. Ravi, Asst. Prof.</td>
 
-       </tr>
-     </tbody>
-   </table>
- </div>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
- <!--end of ORGANIZING COMMITTEE – LOCAL -->
- <hr id="technicalCommittee">
+            <!--end of ORGANIZING COMMITTEE – LOCAL -->
+            <hr id="technicalCommittee">
 
 
- <!--technical committee-->
- <div class="table-responsive  offset-lg-3 col-lg-6"><center>
-  <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>TECHNICAL PROGRAM COMMITTEE</strong></h3>
-  <p>(Under construction)</p></center>
-</div>
-<!--end of technical committee-->
-</div>
+            <!--technical committee-->
+            <div class="table-responsive  offset-lg-3 col-lg-6"><center>
+              <h3 class="h3-responsive ml-lg-4" style="color: green;"><strong>TECHNICAL PROGRAM COMMITTEE</strong></h3>
+              
+              <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
-<?php $this->load->view('common/footer.php');?>
+                <tbody>
+                  <tr><td>Dr. Amit Kanchi, Whirlpool Corporation, Michigan, USA</td>
+                    <td>Dr. Prabhjot Singh, Michigan Tech University, USA</td></tr>
+
+                  <tr> <td> Dr. Mahardhika Pratama, Nanyang Technological University (NTU), Singapore</td>
+                   <td> Dr. G. R. Sinha Professor, Myanmar Institute of Information Technology (MIIT),
+                    Myanmar</td></tr>
+
+                  <tr> <td> Prof. T Adi Lakshmi, Vasavi College of Engineering, Hyderabad, India </td>
+                   <td> Dr. M. Nageswar Rao, VR Siddhartha Engineering College, Vijayawada, India</td></tr>
+
+                 <tr> <td>  Dr. Sabrina Senatore, University of Salerno, Italy</td>
+                   <td> Dr. Sandhya Banda, MVSREC, Hyderabad, India</td></tr>
+
+                 <tr>  <td> Dr. P. Subhashini, MLRIT, Hyderabad, India</td>
+                   <td> Dr. S.Ramakrishna, Bapatla Engineering College, Bapatla, India</td></tr>
+
+                 <tr>  <td> Dr. N. Swapna, CMRTC, Hyderabad, India</td>
+                   <td> Dr. M. Venu Gopalachari, CBIT, Hyderabad, India</td></tr>
+
+                 <tr>  <td> Dr. P.M .Mallikarjuna Shastry, Reva University, India </td>
+                   <td> Dr. K Ravindranath, K L University, Vijayawada, India</td>
+
+                  </tr>
+                </tbody>
+              </table>
+
+
+
+
+            </div>
+            <!--end of technical committee-->
+          </div>
+
+          <?php $this->load->view('common/footer.php');?>
 

@@ -134,9 +134,9 @@
         aria-haspopup="true" aria-expanded="false">Committee
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
       </div>
     </li>
 
@@ -178,6 +178,7 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
    <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
           <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
@@ -222,16 +223,17 @@
 
      
 
-      <div class="jumbotron p-4">
-           <h2 class="h2 mb-2 p-0" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Contact :</h2>
-           <h5 class="h5 mb-2" style="color: black;">Convenor-ICACII</h5>
-        <h5 class="h5" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h5>
+      <div class="jumbotron p-4  pb-lg-5">
+           <h3 class="h3 mb-2 p-0" style="color: darkblue"><i class="fas fa-map-marker-alt"></i>&nbsp;Contact :</h3>
+           <h6 class="h6 mb-2" style="color: black;">Convenor-ICACII</h6>
+        <h6 class="h6" style="color: black;"><i class="fa fa-university" aria-hidden="true"></i></i> Anurag Group of Institutions</h6>
       </a>
 
-         <h5 style="color: black;">Venkatapur, Ghatkesar,</h5>
-         <h5 style="color: black;"> Medchal District, Hyderabad,</h5>
-         <h5 style="color: black;">Telangana, India - 500 088.</h5>
-         <h5 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h5>
+         <h6 style="color: black;">Venkatapur, Ghatkesar,</h6>
+         <h6 style="color: black;"> Medchal District, Hyderabad,</h6>
+         <h6 style="color: black;">Telangana, India - 500 088.</h6>
+         <h6 style="color: black;"> Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></h6>
+         <h6 style="color: black;">Ph.No: +91 70329 29075</h6>
     
 
       </div>

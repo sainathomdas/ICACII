@@ -136,9 +136,9 @@
         aria-haspopup="true" aria-expanded="false">Committee
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing committee</a>
-        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory committee</a>
-         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical program committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
+        <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
+         <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
       </div>
     </li>
 
@@ -179,6 +179,7 @@
   aria-haspopup="true" aria-expanded="false">Venue and Travel
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
       <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
           <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
@@ -195,14 +196,55 @@
 </div>
 </nav>
 <!-- Navbar -->
-<div class="navbarMargin"></div>
+<div class="navbarMargin" id="reachUs"></div>
 
 
 
 <div class="jumbotron hoverable ml-sm-1 mr-sm-1 ml-lg-3 mr-lg-3 p-3 pl-4 pr-4 " style="border-radius: 10px;" style="font-family: 'Lato', sans-serif;">
 
-<hr id="visaInfo"><br>
-<h3 class="h3-responsive pt-2 text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
+<span ></span>
+<h3 class="h3-responsive pt-4 text" style="color: #0d47a1;"><strong>Travel</strong></h3>
+<div class="container-fluid">
+  <p class="text-justify" style="font-family: 'Lato', sans-serif;">Our campus is well connected by road, rail and airways. One can easily reach by using any modes these transports.</p>
+
+  <p  class="text-justify mb-0" style="font-family: 'Lato', sans-serif;"><b><strong>Railways:</strong></b>
+    <br>Nearest major railway stations and their distance to our institute is as follows:
+    <ul style="font-family: 'Lato', sans-serif;">
+
+<li>From Kachiguda railway station: 20 Kms</li>
+<li>From Secunderabad railway station: 21.4 Kms</li>
+<li>From Nampally railway station: 24 Kms</li>
+Some of the trains stop at Ghatkesar station and this station is at a distance of 7 Kms from our institute.
+</ul>
+  </p>
+
+    <p  class="text-justify mb-0" style="font-family: 'Lato', sans-serif;"><b><strong>Metro train:</strong></b><br>
+<ul style="font-family: 'Lato', sans-serif;">
+   <li> Nearby metro station to our institute is Uppal which is at a distance of 13 Kms from our institute. </li>
+    </ul>
+ <span  style="font-family: 'Lato', sans-serif;">   Daily college buses ply from stops near to these railway stations and conference participants can avail college bus facility.</span>
+  </p>
+
+  <p  class="text-justify mb-0" style="font-family: 'Lato', sans-serif;"><b><strong>Airport:</strong></b>
+    <ul style="font-family: 'Lato', sans-serif;">
+  <li>Rajeev Gandhi International Airport is the nearby airport at a distance of 55 Kms from our institute. Assistance for booking cabs will be provided to the participants to reach our institute on payment basis on prior request.</li>
+
+</ul>
+  </p>
+
+
+   <p  class="text-justify mb-0" style="font-family: 'Lato', sans-serif;"><b><strong>Roadways:</strong></b>
+    <ul style="font-family: 'Lato', sans-serif;">
+  <li>Our institute is situated on the way to Warangal at Jodimetla. Nearby bus hub is Mahatma Gandhi Bus Station (MGBS) which connects inter and intra state transport buses. MGBS bus station is at a distance of 22 Kms from our institute. </li>
+
+</ul>
+  </p>
+</div>
+
+<hr>
+
+<span id="visaInfo"></span><br>
+<h3 class="h3-responsive text" style="color: #0d47a1;"><strong>VISA Information</strong></h3>
 <br>
 <p class="text-justify" style="font-family: 'Lato', sans-serif;">Request for an invitation to obtain VISA may be made through an e-mail to Convenor (convenor_icacii@cvsr.ac.in) attaching first and last papers of your passport. You will receive the official invitation within three working days.
 
@@ -212,6 +254,8 @@ Please note that this invitation will be given to only registered delegates and 
 
 
   <h3 class="h3-responsive pt-2 text-left" style="color: #0d47a1;"><strong>Accomodation</strong></h3>
+
+  <!--
   <p style="font-family: 'Lato', sans-serif;">
     Delegates and participants are requested to make their own arrangements of travel and accommodation. However, necessary information and support will be provided for accommodation in the nearby hotels on request. Double room tariff varies from Rs. 1,500 to Rs. 5,000 per day. The college will provide free local transportation to each the venue. However, a limited accommodation is available in College Hostel at a nominal charge of Rs. 300/- for one night stay.
   </p>
@@ -306,6 +350,12 @@ Please note that this invitation will be given to only registered delegates and 
     </table>
   </div>
   </center>
+
+
+-->
+
+<center> (Under Process)</center>
+
     <hr id="localInfo">
    
 
