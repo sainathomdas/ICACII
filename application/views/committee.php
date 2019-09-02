@@ -173,6 +173,7 @@
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
     <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+    <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
   </div>
 </li>
 
@@ -716,29 +717,41 @@
               <table class="table table-bordered table-sm p-lg-4" style="font-family: 'Lato', sans-serif;border-radius: 10px;">
 
                 <tbody>
-                  <tr><td>Dr. Amit Kanchi, Whirlpool Corporation, Michigan, USA</td>
-                    <td>Dr. Prabhjot Singh, Michigan Tech University, USA</td></tr>
-
-                  <tr> <td> Dr. Mahardhika Pratama, Nanyang Technological University (NTU), Singapore</td>
-                   <td> Dr. G. R. Sinha Professor, Myanmar Institute of Information Technology (MIIT),
-                    Myanmar</td></tr>
-
-                  <tr> <td> Prof. T Adi Lakshmi, Vasavi College of Engineering, Hyderabad, India </td>
-                   <td> Dr. M. Nageswar Rao, VR Siddhartha Engineering College, Vijayawada, India</td></tr>
-
-                 <tr> <td>  Dr. Sabrina Senatore, University of Salerno, Italy</td>
-                   <td> Dr. Sandhya Banda, MVSREC, Hyderabad, India</td></tr>
-
-                 <tr>  <td> Dr. P. Subhashini, MLRIT, Hyderabad, India</td>
-                   <td> Dr. S.Ramakrishna, Bapatla Engineering College, Bapatla, India</td></tr>
-
-                 <tr>  <td> Dr. N. Swapna, CMRTC, Hyderabad, India</td>
-                   <td> Dr. M. Venu Gopalachari, CBIT, Hyderabad, India</td></tr>
-
-                 <tr>  <td> Dr. P.M .Mallikarjuna Shastry, Reva University, India </td>
-                   <td> Dr. K Ravindranath, K L University, Vijayawada, India</td>
-
-                  </tr>
+                 <tr>
+                 <td> Prof P. V. Sudha, Osmania University, India, Hyderabad, India</td>
+                  <td>Prof S. Sameen Fathima, Osmania University, Hyderabad, India</td>
+                </tr><tr>
+                 <td> Dr. Sabrina Senatore, University of Salerno, Italy  </td>
+                 <td> Dr. PSVS Sai Prasad, University of Hyderabad, Hyderabad, India</td>
+                 </tr><tr>
+                 <td> Dr. A Nagaraju, Central University of Rajasthan, India</td>
+                 <td> Dr. Khaleel Ahmad, Maulana Azad National Urdu University, Hyderabad, India</td>
+                 </tr><tr>
+                 <td> Dr. Pardeep Kumar, Presidency University, Bangalore, India</td>
+                 <td> Dr. Imran Quereshi, Sultanate of Oman, Oman</td>
+                 </tr><tr>
+                 <td> Dr. SAMIKSHA SHUKLA, Christ University, Bangalore, India </td>
+                 <td> Dr. Raju G, Christ University, Bangalore, India </td>
+                 </tr><tr>
+                 <td> Dr. Amit Kanchi, Whirlpool Corporation, Michigan, USA</td>
+                 <td> Dr. Prabhjot Singh, Michigan Tech University, USA</td>
+                 </tr><tr>
+                 <td> Dr. Mahardhika Pratama, Nanyang Technological University (NTU), Singapore</td>
+                 <td> Dr. G. R. Sinha Professor, Myanmar Institute of Information Technology (MIIT), Myanmar</td>
+                 </tr><tr>
+                 <td> Prof. T Adi Lakshmi, Vasavi College of Engineering, Hyderabad, India </td>
+                 <td> Dr. M. Nageswar Rao,   K L University, Vijayawada, India  </td>
+                 </tr><tr>
+                 <td> Dr. Sandhya Banda, MVSREC, Hyderabad, India</td>
+                 <td> Dr. P. Subhashini, MLRIT, Hyderabad, India</td>
+                 </tr><tr>
+                 <td> Dr. S.Ramakrishna, Bapatla Engineering College, Bapatla, India</td>
+                 <td> Dr. N. Swapna, CMRTC, Hyderabad, India</td>
+                 </tr><tr>
+                 <td> Dr. M. Venu Gopalachari, CBIT, Hyderabad, India</td>
+                 <td> Dr. P.M .Mallikarjuna Shastry, Reva University, India </td>
+                 </tr><tr>
+                 <td colspan="2"> Dr. K Ravindranath, K L University, Vijayawada, India  </td></tr>
                 </tbody>
               </table>
 

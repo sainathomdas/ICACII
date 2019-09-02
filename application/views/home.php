@@ -165,6 +165,7 @@
     <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
     <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
      <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+       <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
   </div>
 </li>
 
@@ -238,7 +239,7 @@
         </a>
  <h4 class="mb-4" style="max-width: 90%;">
           <a title="Register" href="<?php echo base_url('index.php/Registration');?>" >
-            <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Dates :</span> Advances in Computational Intelligence and Informatics : 20th and 21st December 2019</marquee> </strong>
+            <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Note :</span> Paper submission date is extended up to 20<sup>th</sup> September 2019.</marquee> </strong>
           </a>
         </h4>
 
@@ -297,7 +298,7 @@
               <div class="timeline__group">
                 <div class="timeline__box">
                   <div class="timeline__date">
-                    <span class="timeline__day">2</span>
+                    <span class="timeline__day">20</span>
                     <span class="timeline__month">Sep 2019</span>
                   </div>
                   <div class="timeline__post hoverable" >

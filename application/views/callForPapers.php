@@ -168,6 +168,7 @@
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
      <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+       <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
 </div>
 </li>
 
