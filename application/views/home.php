@@ -127,9 +127,9 @@
         aria-haspopup="true" aria-expanded="false"><strong>Committee</strong>
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-        <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
-        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
-        <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
+        <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
+        <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
+        <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
         
       </div>
     </li>
@@ -140,10 +140,10 @@
       aria-haspopup="true" aria-expanded="false"><strong>Program</strong>
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-      <a class="dropdown-item"  style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-      <a class="dropdown-item"  style="font-size: 14px;" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
-      <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
-      <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+      <a class="dropdown-item"  style="font-size: 16px;"  href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+      <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+      <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
   </li>
 
@@ -161,11 +161,11 @@
     aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
-    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
-    <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
-     <a class="dropdown-item" style="font-size: 14px;"  href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
-       <a class="dropdown-item" style="font-size: 14px;" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
+  <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
+    <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+    <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+     <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+       <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
   </div>
 </li>
 
@@ -174,10 +174,12 @@
   aria-haspopup="true" aria-expanded="false"><strong>Venue and Travel</strong>
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
-   <a class="dropdown-item"style="font-size:14px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
-  <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
-  <a class="dropdown-item" style="font-size:14px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+  <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
+   <a class="dropdown-item"style="font-size:16px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
+  <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
+  <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+    <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue#reachUs');?>">How to reach us?</a>
+
  
 </div>
 </li>
@@ -276,7 +278,7 @@
              <strong>
               <p class=" mb-4" style="color: black;">&nbsp;Venkatapur, Ghatkesar,</p>
               <p class=" mb-4" style="color: black;">&nbsp;Medchal District, Hyderabad,</p> 
-              <p class=" mb-4" style="color: black;">&nbsp;Telangana, India. 500 088.</p> 
+              <p class=" mb-4" style="color: black;">&nbsp;Telangana, India - 500 088.</p> 
               <p class=" mb-4" style="color: black;">&nbsp;Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=convenor_icacii@cvsr.ac.in" target="_blank">convenor_icacii@cvsr.ac.in</a></p> 
             </strong> 
           </div>
@@ -296,17 +298,24 @@
           <div class="main-container page__container">
             <div class="timeline">
               <div class="timeline__group">
+
+
+
+
                 <div class="timeline__box">
                   <div class="timeline__date">
-                    <span class="timeline__day">20</span>
+                    <span class="timeline__day"> 20</span>
                     <span class="timeline__month">Sep 2019</span>
                   </div>
-                  <div class="timeline__post hoverable" >
+                  <div class="timeline_post_postponed hoverable" >
                     <div class="timeline__content">
-                      <p><strong >Paper submission</strong></p>
+                      <p><strong ><span style="color: red;"><b><strike>2<sup>nd</sup>Sep 2019</strike></b></span><br>Paper submission</strong></p>
                     </div>
                   </div>
                 </div>
+
+
+
                 <div class="timeline__box">
                   <div class="timeline__date">
                     <span class="timeline__day">19</span>

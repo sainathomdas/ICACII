@@ -184,7 +184,7 @@
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-  
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">How to reach us?</a>
 </div>
 </li>
 
@@ -254,7 +254,7 @@
     <h4 class="h4 mb-2 text-left" style="color: black;">Special Achievements</h4>
 
 
-    <ul style="font-family: 'Lato', sans-serif;font-size: 14px;" class="text-left">
+    <ul style="font-family: sans-serif;font-size: 14px;" class="text-left">
      <li> All India 169th Rank in Engineering in National Institutional Ranking Framework (NIRF)- 2019 </li>
      <li> All India 76-100 Rank Band in Pharmacy in National Institutional Ranking Framework (NIRF)- </li>2019  
      <li> Ranked  4th Best Engineering College in Telangana with AAA+ Rating by Careers360- 2019</li>
