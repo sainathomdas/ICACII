@@ -181,7 +181,7 @@
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">How to reach us?</a>
+ 
 </div>
 </li>
 
@@ -344,7 +344,7 @@
   <li> Each registered participant is entitled to get conference kit, refreshments and can attend
   all the conference proceedings.</li>
   <li> Each Poster Participant will be provided Poster Presentation &amp; Participation certificate.</li>
-  <li> Three BEST POSTER will be awarded given based on the recommendation of Poster
+  <li> Three BEST POSTER will be awarded based on the recommendation of Poster
   presentation evaluation committee.</li>
 </ul>
 </div>

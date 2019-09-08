@@ -178,7 +178,7 @@
    <a class="dropdown-item"style="font-size:16px;"  href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
   <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-    <a class="dropdown-item" style="font-size:16px;" href="<?php echo base_url('index.php/Venue#reachUs');?>">How to reach us?</a>
+  
 
  
 </div>
