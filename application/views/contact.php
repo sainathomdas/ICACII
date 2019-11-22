@@ -147,7 +147,7 @@
     </a>
     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-      <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
     </div>
@@ -220,7 +220,7 @@
               Email: ravinderraocse@cvsr.ac.in</td>
               
             </tr>
-          
+            
 
             <tr>
               <th scope="row">Registration</th>
@@ -234,10 +234,19 @@
             
             <tr>
               <th scope="row">Accommodation</th>
-              <td>DR. A. OBULESH       <br>
-                Assoc. Professor, AGI<br>
-                Phone: +91 96761 28116<br>
-              Email: obuleshcse@cvsr.ac.in</td>
+              <td>Mr. Madar Bandu       <br>
+                Asst. Professor, AGI<br>
+                Phone: +91 97040 56521<br>
+                Email:  madarbanducse@cvsr.ac.in
+                <hr>
+                Mrs. Hima Bindu<br>
+                Asst. Professor, AGI<br>
+                Phone: +91 98485 02406<br>
+                Email:  himabinducse@cvsr.ac.in   
+
+
+
+              </td>
             </tr>
 
             <tr>

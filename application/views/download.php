@@ -129,7 +129,7 @@
   </a>
   <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Plenary Speaker</a>
+    <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
     <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
   </div>
