@@ -241,7 +241,7 @@
         </a>
  <h4 class="mb-4" style="max-width: 90%;">
           <a title="Register" href="<?php echo base_url('index.php/Registration');?>" >
-            <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Note :</span> Paper submission date is extended up to 20<sup>th</sup> September 2019.</marquee> </strong>
+            <strong style="color: white;"><marquee><span style="color: yellow;">Imporant Note :</span> Paper submission date is extended up to 15<sup>th</sup> October 2019.</marquee> </strong>
           </a>
         </h4>
 
@@ -304,12 +304,12 @@
 
                 <div class="timeline__box">
                   <div class="timeline__date">
-                    <span class="timeline__day"> 20</span>
-                    <span class="timeline__month">Sep 2019</span>
+                    <span class="timeline__day"> 15</span>
+                    <span class="timeline__month">Oct 2019</span>
                   </div>
                   <div class="timeline_post_postponed hoverable" >
                     <div class="timeline__content">
-                      <p><strong ><span style="color: red;"><b><strike>2<sup>nd</sup>Sep 2019</strike></b></span><br>Paper submission</strong></p>
+                      <p><strong ><span style="color: red;"><b><strike>30<sup>th</sup>Sep 2019</strike></b></span><br>Paper submission</strong></p>
                     </div>
                   </div>
                 </div>
