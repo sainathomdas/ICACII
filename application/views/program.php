@@ -145,7 +145,7 @@
   aria-haspopup="true" aria-expanded="false">Download
 </a>
 <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download = "ICACII 2019_MS_Word_Template.doc">Paper format</a>
+  <a class="dropdown-item"  href="<?php echo base_url('assets/Author-kit.rar');?>" download = "Author-kit.rar">Author kit</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
   <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
@@ -230,10 +230,10 @@
 -->
 <div class="container py-3">
   <div class="row  justify-content-center">
-    <div class="col-12 col-md-5 jumbotron justify-content-center text-center">
+    <div class="col-12 col-md-5 hoverable justify-content-center text-center">
       <div class=" text-center ">
 
-        <img src="<?php echo base_url('assets/images/che.jpg');?>" class="img-fluid rounded hoverable " height="180" width="180"alt="hoverable">
+        <img src="<?php echo base_url('assets/images/che.jpg');?>" class="img-fluid hoverable " height="180" width="180" style="border-radius: 50%;" alt="hoverable">
 
 
       </div>
@@ -256,9 +256,9 @@
       </div>
     </div>
     <div class="col-1"></div>
-    <div class="col-12 col-md-5 jumbotron justify-content-center text-center hoverable">
+    <div class="col-12 col-md-5 justify-content-center text-center hoverable">
       <div class="card-img-top text-center ">
-        <img src="<?php echo base_url('assets/images/AnindaBose.jpg');?>" class=" img-fluid rounded hoverable " height="180" width="180">
+        <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/AnindaBose.jpg');?>" class=" img-fluid hoverable " height="180" width="180">
 
       </div>
       <div class="card-body">
@@ -291,9 +291,9 @@
     <h3 class="h1-responsive" style="color: #37474F;"><strong>Plenary Speaker</strong></h3>
   </div>
 
-<div class="col-md-6 jumbotron justify-content-center text-center">
+<div class="col-md-6 hoverable justify-content-center text-center">
   <div class=" text-center ">                        
-    <img src="<?php echo base_url('assets/images/samir.jpg');?>" class="img-fluid rounded hoverable " height="180" width="180"alt="hoverable">   
+    <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/samir.jpg');?>" class="img-fluid hoverable " height="180" width="180"alt="hoverable">   
 
   </div>
   <div class="card-body">

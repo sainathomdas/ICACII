@@ -92,6 +92,12 @@
             z-index: 9999;
             background: url('<?php echo base_url('assets/images/preloader.gif');?>') center no-repeat #fff;
         }
+
+
+        .our-team{
+            max-height: 300px;
+        }
+
     </style>
 
 </head>
@@ -164,7 +170,7 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Download</strong>
                         </a>
                         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                            <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/ICACII 2019_MS_Word_Template.doc');?>" download="ICACII 2019_MS_Word_Template.doc">Paper format</a>
+                        <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/Author-kit.rar');?>" download = "Author-kit.rar">Author kit</a>
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/Brochure.pdf');?>" target="_blank">Brochure</a>
@@ -241,13 +247,7 @@
                 <a target="_blank" title="Springer LNNS" href="https://www.springer.com/series/15179" class="btn btn-outline-white btn-sm ">
                     <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
                 </a>
-                <h4 class="mb-4" style="max-width: 90%;">
-                    <a title="Register" href="<?php echo base_url('index.php/Registration');?>">
-                        <strong style="color: white;">
-                            <marquee><span style="color: yellow;">Imporant Note :</span> Paper submission date is extended up to 15<sup>th</sup> October 2019.</marquee>
-                        </strong>
-                    </a>
-                </h4>
+            
 
             </div>
             <!-- Content -->
@@ -420,13 +420,13 @@
         <center>
             <div class="container owl-carousel owl-theme">
 
-                <div>
+                <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/somayajulu.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>D.V.L.N.Somayajulu</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. D.V.L.N.Somayajulu</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>IIITDM Kurnool</b></h5>
                         </div>
                     </div>
@@ -434,63 +434,63 @@
 
 
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/che.jpg')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr. Salvatore Distefano</strong></h3>
-                            <h5 style="color: #081d3f;"><b>Assoc.Prof. University of Messina</b></h5>
+                            <h3 style="color:black;"><strong><b>Dr. Salvatore Distefano</b></strong></h3>
+                            <h5 style="color: #081d3f;"><b>University of Messina</b></h5>
                         </div>
                     </div>
                 </div>
 
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/aninda.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Aninda Bose</strong></h3>
+                            <h3 style="color:black;"><strong><b>Aninda Bose</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>Hard Sciences Publishing, SPRINGER - New Delhi</b></h5>
                         </div>
                     </div>
                 </div>
 
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/samir.jpg')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Samir Goswami </strong></h3>
+                            <h3 style="color:black;"><strong><b>Samir Goswami </b></strong></h3>
                             <h5 style="color: #081d3f;"><b>NIRD & PR - MIS</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/supreethi.jpg')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>K.P. Supreethi</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. K. P. Supreethi</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>JNTUH - CSE Dept</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/vishnuvardhan.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.B.Vishnu vardhan</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. B. Vishnu vardhan</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>JNTU Jagityal - CSE Dept</b></h5>
                         </div>
                     </div>
@@ -498,67 +498,89 @@
 
 
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/salman.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.Salman Abdul moiz</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. Salman Abdul moiz</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>HCU - School of Computer and information Sciences</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/rajeev.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.Rajeev Wankar</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. Rajeev Wankar</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>HCU - School of Computer and information Sciences</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/avnkrishna.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.A.V.N. Krishna</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. A. V. N. Krishna</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>CHRIST University (Bangalore) - CSE Dept</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/sasi.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.J.Sasi Kiran</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. J. Sasi Kiran</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>LORDS - CSE Dept</b></h5>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                 <div class="hoverable">
                     <div class="our-team">
                         <div class="picture">
                             <img class="img-fluid" src="<?php echo base_url('assets/images/krishna.png')?>">
                         </div>
                         <div class="team-content">
-                            <h3 style="color:black;"><strong>Dr.A.V. Krishna Prasad.</strong></h3>
+                            <h3 style="color:black;"><strong><b>Dr. A. V. Krishna Prasad</b></strong></h3>
                             <h5 style="color: #081d3f;"><b>MVSR - CSE Dept</b></h5>
                         </div>
                     </div>
                 </div>
 
+                 <div class="hoverable">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/Nageswarao.jpg')?>">
+                        </div>
+                        <div class="team-content">
+                            <h3 style="color:black;"><strong><b>Dr. Moparthi Nageswara Rao</b></strong></h3>
+                            <h5 style="color: #081d3f;"><b>KL University</b></h5>
+                        </div>
+                    </div>
+                </div>
 
+                 <div class="hoverable">
+                    <div class="our-team">
+                        <div class="picture">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/sunil.jpg')?>">
+                        </div>
+                        <div class="team-content">
+                            <h3 style="color:black;"><strong><b>Dr. Sunil Bhutada</strong></h3>
+                            <h5 style="color: #081d3f;"><b>Sreenidhi Institute of Science & Technology</b></h5>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </center>
@@ -572,7 +594,7 @@
 
 <div class="container-fluid">
   <marquee behavior="scroll" direction = "left">
-  <strong class="h4 responsive">Sponsors: </strong> &nbsp;
+  <strong class="h4 responsive">Our Sponsors: </strong> &nbsp;
   <img src="<?php echo base_url('assets/images/gradient.png');?>"  style="height: 5rem"> 
  </marquee>
 </div>
