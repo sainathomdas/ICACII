@@ -1,180 +1,10 @@
-  <!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ICACII-Program</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="../assets/css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="../assets/css/style.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../assets/css/style1.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/navbarMargin.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <style type="text/css">
-
-    .top-nav-collapse {
-      background-color: black;
-    }
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 559px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 560px) and (max-width: 740px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 700px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-
-    }
-
-    .navbar-brand{
-      margin-left: 3%;
-    }
-
-  </style>
+$this->load->view('common/header.php');
+?>
 
 
 
-
-</head>
-
-
-<body>
-
-  <div id="preloader"></div>
-
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar " style="background-color: #000009" >
-    <div class="container-fluid">
-
-     <a title="ICACII" href="<?php echo base_url('index.php/Home');?>" class="navbar-brand h4-responsive p-0"><img src="<?php echo base_url();?>/assets/images/horse.png" class="img img-fluid " style="width: 16%; height: auto;"><strong>
-     ICACII-2019</strong></a>
-
-     <!-- Collapse -->
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-
-   <!-- Links -->
-   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-    <!-- Left -->
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item  cool-link">
-        <a class="nav-link" href="<?php echo base_url('index.php/Home');?>">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item cool-link">
-        <a class="nav-link" href="<?php echo base_url('index.php/About');?>">About Us</a>
-      </li>
-      <li class="nav-item dropdown cool-link">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">Committee
-      </a>
-      <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-       <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#organizingCommittee');?>">Organizing Committee</a>
-       <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#advisoryCommittee');?>">Advisory Committee</a>
-       <a class="dropdown-item" href="<?php echo base_url('index.php/Committee#technicalCommittee');?>">Techical Program Committee</a>
-     </div>
-   </li>
-
-
-   <li class="nav-item dropdown cool-link active">
-    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-    aria-haspopup="true" aria-expanded="false">Program
-  </a>
-  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
-    <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
-  </div>
-</li>
-
-<li class="nav-item cool-link ">
-  <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
-</li>
-
-<li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
-</li>
-
-<li class="nav-item dropdown cool-link">
-  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-  aria-haspopup="true" aria-expanded="false">Download
-</a>
-<div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item"  href="<?php echo base_url('assets/Author-kit.rar');?>" download = "Author-kit.rar">Author kit</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
-  <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
-  <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
-</div>
-</li>
-
-<li class="nav-item dropdown cool-link">
-  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-  aria-haspopup="true" aria-expanded="false">Venue and Travel
-</a>
-<div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#reachUs');?>">Travel</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
-  <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
-
-  
-</div>
-</li>
-
-<li class="nav-item cool-link">
-  <a class="nav-link" href="<?php echo base_url('index.php/Contact');?>">Contact Us</a>
-</li>
-</ul>
-</div>
-
-</div>
-</nav>
 <!-- Navbar -->
 <div class="navbarMargin"  ></div>
 
@@ -208,7 +38,7 @@
     #more2 {display: none;}
     #more3{display: none;}
     p{
-      
+
       font-family: bold;
     }
   </style>
@@ -291,43 +121,84 @@
     <h3 class="h1-responsive" style="color: #37474F;"><strong>Plenary Speaker</strong></h3>
   </div>
 
-<div class="col-md-6 hoverable justify-content-center text-center">
-  <div class=" text-center ">                        
-    <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/samir.jpg');?>" class="img-fluid hoverable " height="180" width="180"alt="hoverable">   
+  <div class="col-md-6 hoverable justify-content-center text-center">
+    <div class=" text-center ">                        
+      <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/samir.jpg');?>" class="img-fluid hoverable " height="180" width="180"alt="hoverable">   
 
+    </div>
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title text-dark text-center"><b>Samir Goswami</b></h4>
+      <!-- Text -->
+
+      <span id="dots3"></span>
+      <span id="more3">
+        <p class="text-justify">Software professional having overall 23+ years experience with IT industry in Design & Development for
+          Engineering Applications Domain (around 12 years)<br>
+          Financial Applications Domain (around 5 years)<br>
+        Healthcare Application Domain (around 3 years)</p>
+
+
+        <p class="text-justify">Involved in forming mission specific teams and logistics.<br>
+          A member of senior management group and/extensively involved in various organizational building activities like recruitment, training, policy making and its enforcement.<br>
+          Pioneered implementation of agile development practices (SCRUM Methodology) in the organization for product/software development.<br>
+          A practicing Enterprise Software Architect specializing in object-oriented architecture-design-analysis and component based designs.<br>
+        As a Product development manager, efficiently handle product development and support issues depending upon priorities, interact with clients and resolve outstanding issues. </p>
+      </span>
+      <!-- Button -->
+      <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction3()" id="myBtn3">Read More</button>
+
+    </div>
   </div>
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title text-dark text-center"><b>Samir Goswami</b></h4>
-    <!-- Text -->
-
-    <span id="dots3"></span>
-    <span id="more3">
-      <p class="text-justify">Software professional having overall 23+ years experience with IT industry in Design & Development for
-Engineering Applications Domain (around 12 years)<br>
-Financial Applications Domain (around 5 years)<br>
-Healthcare Application Domain (around 3 years)</p>
-
-
-      <p class="text-justify">Involved in forming mission specific teams and logistics.<br>
-A member of senior management group and/extensively involved in various organizational building activities like recruitment, training, policy making and its enforcement.<br>
-Pioneered implementation of agile development practices (SCRUM Methodology) in the organization for product/software development.<br>
-A practicing Enterprise Software Architect specializing in object-oriented architecture-design-analysis and component based designs.<br>
-As a Product development manager, efficiently handle product development and support issues depending upon priorities, interact with clients and resolve outstanding issues. </p>
-    </span>
-    <!-- Button -->
-    <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction3()" id="myBtn3">Read More</button>
-
-  </div>
-</div>
 </center>
 
 
 <!-- end of plenary speaker -->
 
+
+<hr id="guidelines">
+<!--Presentation Guidelines-->
+<div class="container mt-5">
+
+ <h4 class="h4-responsive" style="color: #0d47a1;"><strong>Presentation Guidelines of ICACII 2019</strong></h4>
+
+ <p class="text-dark text-justify">
+   The duration of a presentation slot is 10 minutes. You will have 8 minutes for the
+   presentation itself and 2 minutes for questions from the audience.
+
+   <ol class="text-dark text-justify">
+    <li class="text-dark">Authors of papers accepted for oral presentation will have 8 minutes for their
+    presentation, plus 2 minutes for questions.</li>
+    <li class="text-dark"> Please strictly observe this time limit in order to facilitate people moving
+    between sessions.</li>
+    <li class="text-dark"> The session room will provide an overhead projector and a screen for authors to
+    use.</li>
+    <li class="text-dark"> Please make sure your Presentation slides must be Compatible to MS-
+    office 2007/2010.</li>
+    <li class="text-dark"> Presenters should arrive at their session a few minutes before the session starts
+    and check that their slides work satisfactorily with the audiovisual system in the
+    room.</li>
+  </ol>
+</p>
+
+<h5 class="ml-2 text-dark"><strong>General Considerations:</strong></h5>
+<div class="container">
+<p class="text-dark text-justify">
+  <ul>
+  <li>  Limit the number of lines per slide not more than 8</li>
+<li> Space between the lines must be 2.0/1.5.</li>
+<li> All fonts, including that on graphs, should be 18 point or larger.</li>
+<li> Graphs and charts should be labelled and must be legible.</li>
+<li> Use the ICACII 2019 presentation template at download section of conference
+website: <a href="http://www.icacii.com/" target="_blank"> www.icacii.com</a></li>
+  </ul>
+</p>
+</div>
+</div>
 </div>
 <!-- jumbotron close -->
+
 
 
 
@@ -375,7 +246,7 @@ As a Product development manager, efficiently handle product development and sup
 
 
 
- function myFunction3() {
+  function myFunction3() {
     var dots = document.getElementById("dots3");
     var moreText = document.getElementById("more3");
     var btnText = document.getElementById("myBtn3");

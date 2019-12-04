@@ -135,6 +135,11 @@
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+        <a class="dropdown-item dropdown-toggle" type="button" data-toggle="dropdown" href="#">Oral Presentation</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program#guidelines');?>">Presentation Guidelines</a>
+      <a class="dropdown-item" href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">Presentation Template</a>
+    </div>
     </div>
   </li>
 
@@ -156,6 +161,7 @@
     <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
        <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
          <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
+         <a class="dropdown-item"  href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">PPT Template</a>
 </li>
 
 <li class="nav-item dropdown cool-link">
