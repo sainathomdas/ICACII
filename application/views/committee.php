@@ -4,6 +4,27 @@ $this->load->view('common/header.php');
 ?>
 
 
+<style type="text/css">
+  .card-img-top{
+      padding-top:2vh;
+      height:auto;
+      width:50%;
+    }
+    .card {
+
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .card-title{
+      font-size: 18px;
+    }
+    .card-subtitle{
+      font-size: 14px;
+    }
+
+</style>
+
 
 <!-- Navbar -->
 <div class="navbarMargin"  id="organizingCommittee"></div>

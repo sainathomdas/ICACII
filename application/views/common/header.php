@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ICACII-About Us</title>
+  <title>ICACII</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -174,9 +174,9 @@
 
    <a class="dropdown-item" href="<?php echo base_url('assets/Data Analytics.pdf');?>" target = "_blank">Data Analytics & Visualization</a>
    <a class="dropdown-item" href="<?php echo base_url('assets/IoT.pdf');?>" target = "_blank" >Internet of Things</a>
-     <a class="dropdown-item"  href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Computer Vision</a>
-     <a class="dropdown-item" href="<?php echo base_url('assets/Cyber Security.pdf');?>" target = "_blank" >Machine Learning with Python on IBM Cloud</a>
-<a class="dropdown-item"href="<?php echo base_url('index.php/PreConference');?>" target = "_blank"  >Security through Blockchain Technology
+     <a class="dropdown-item"  href="<?php echo base_url('assets/ip.PDF');?>" target = "_blank" >Computer Vision</a>
+     <a class="dropdown-item" href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Machine Learning with Python on IBM Cloud</a>
+<a class="dropdown-item"href="<?php echo base_url('assets/Cyber Security.pdf');?>" target = "_blank"  >Security through Blockchain Technology
 </a>
 
  </div>
@@ -201,6 +201,8 @@
      <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
      <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
      <a class="dropdown-item"  href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">PPT Template</a>
+      <a class="dropdown-item"  href="<?php echo base_url('assets/ICACII Poster Template Updated.pptx');?>" download = "ICACII Poster Template Updated">Poster Template</a>
+     
  </div>
 </li>
 

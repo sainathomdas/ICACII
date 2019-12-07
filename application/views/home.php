@@ -47,6 +47,8 @@
             .view {
                 height: 120vh;
             }
+
+           
         }
 
         @media (min-width: 560px) and (max-width: 740px) {
@@ -100,6 +102,40 @@
         .nav-item{
             text-align: center;
         }
+
+
+
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: orange;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: teal;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+
 
     </style>
 
@@ -172,18 +208,18 @@
                     </a>
                     <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
 
-                     <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('assets/Data Analytics.pdf');?>" target = "_blank">Data Analytics & Visualization</a>
-                     <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('assets/IoT.pdf');?>" target = "_blank" >Internet of Things</a>
-                     <a class="dropdown-item"   style="font-size: 16px;" href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Computer Vision</a>
-                     <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('index.php/PreConference');?>" >Machine Learning with Python on IBM Cloud</a>
-                     <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/Cyber Security.pdf');?>"  target = "_blank"  >Security through Blockchain Technology
-                     </a>
+                       <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('assets/Data Analytics.pdf');?>" target = "_blank">Data Analytics & Visualization</a>
+                       <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('assets/IoT.pdf');?>" target = "_blank" >Internet of Things</a>
+                       <a class="dropdown-item"  style="font-size: 16px;"  href="<?php echo base_url('assets/ip.PDF');?>" target = "_blank" >Computer Vision</a>
+                       <a class="dropdown-item"  style="font-size: 16px;" href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Machine Learning with Python on IBM Cloud</a>
+                       <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/Cyber Security.pdf');?>" target = "_blank"  >Security through Blockchain Technology
+                       </a>
 
-                 </div>
-             </li>
+                   </div>
+               </li>
 
 
-             <li class="nav-item cool-link">
+               <li class="nav-item cool-link">
                 <a class="nav-link" href="<?php echo base_url('index.php/CallForPapers');?>"><strong>Call for Papers</strong></a>
             </li>
 
@@ -201,6 +237,7 @@
                     <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/Brochure.pdf');?>" target="_blank">Brochure</a>
                     <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/sponsorship.pdf');?>" target="_blank">Sponsorship</a>
                     <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">PPT Template</a>
+                       <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('assets/ICACII Poster Template Updated.pptx');?>" download = "ICACII Poster Template Updated">Poster Template</a>
                 </div>
             </li>
 
@@ -260,16 +297,52 @@
                     <h1 style="font-family: 'Stylish',sans-serif;">Dec 20-21, 2019</h1>
                 </center>
 
-                <h1 class="form-control-warning my-5" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions, Hyderabad</h1>
+                <h1 class="form-control-warning mt-3 mb-3" style="font-family: 'Merriweather', sans-serif;">Anurag Group of Institutions, Hyderabad, India</h1>
 
 
-                <div class="container mb-4">
-                    <a href="<?php echo base_url('index.php/CallForPapers#paperSubmission')?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Paper Submission</a>
-                    <a href="<?php echo base_url('index.php/Registration');?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Registration</a>
+          <!--       <div class="container mb-4">
+                    <a href="<?php //  echo base_url('index.php/CallForPapers#paperSubmission')?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Paper Submission</a>
+                    <a href="<?php  // echo base_url('index.php/Registration');?>" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Registration</a>
                     <a href="#importantDates" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;">Important dates</a>
                     <a href="" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;pointer-events: none;">Accepted papers</a>
                     <a href="" class="btn btn-outline-white btn-sm px-2 mx-2" style="font-size: 14px;pointer-events: none;">Program schedule</a>
                 </div>
+
+ -->
+
+     <!-- Time Counter -->
+<!--      <center>
+        <p id="time-counter" class="p-2 border border-light text-center my-4" style="font-family: 'Merriweather', sans-serif;display: table-cell;border-radius: 5px;"></p>
+</center>
+         -->
+
+
+
+<div id="clockdiv" class="text-center mt-2 mb-2 pt-0">
+  <div>
+    <span class="days" id="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours" id="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes" id="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div class="seconds_div">
+    <span class="seconds" id="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+<br>
+
+
+
+
+
+
                 <a target="_blank" title="Springer LNNS" href="https://www.springer.com/series/15179" class="btn btn-outline-white btn-sm ">
                     <img src="<?php echo base_url('assets/images/springer1.png');?>" class="rounded" style="max-height: 40px">
                 </a>
@@ -439,6 +512,8 @@
 
 </div> -->
 
+
+
 <div class="ribbon col-md-12">
     <strong class="ribbon-content " style="font-size: 24px;">Dignitaries during the Conference</strong>
 </div>
@@ -446,14 +521,14 @@
 <center>
     <div class="container owl-carousel owl-theme">
 
-     <div class="hoverable">
+       <div class="hoverable">
         <div class="our-team">
             <div class="picture">
                 <img class="img-fluid" src="<?php echo base_url('assets/images/somayajulu.png')?>">
             </div>
             <div class="team-content">
                 <h3 style="color:black;"><strong><b>Dr. D.V.L.N.Somayajulu</b></strong></h3>
-                <h5 style="color: #081d3f;"><b>IIITDM Kurnool</b></h5>
+                <h5 style="color: #081d3f;"><b>Director, IIITDM Kurnool</b></h5>
             </div>
         </div>
     </div>
@@ -513,6 +588,20 @@
     <div class="hoverable">
         <div class="our-team">
             <div class="picture">
+                <img class="img-fluid" src="<?php echo base_url('assets/images/claire.jpg')?>">
+            </div>
+            <div class="team-content">
+                <h3 style="color:black;"><strong><b>Dr. Claire F. Komives</b></strong></h3>
+                <h5 style="color: #081d3f;"><b>&nbsp;&nbsp;Professor & Fullbright - Nehru Senior Scholar, 
+                SAN JOSÉ STATE UNIVERSITY, USA</b></h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hoverable">
+        <div class="our-team">
+            <div class="picture">
                 <img class="img-fluid" src="<?php echo base_url('assets/images/kamakshi.jpg')?>">
             </div>
             <div class="team-content">
@@ -530,7 +619,7 @@
             </div>
             <div class="team-content">
                 <h3 style="color:black;"><strong><b>Samir Goswami </b></strong></h3>
-                <h5 style="color: #081d3f;"><b>NIRD & PR - MIS</b></h5>
+                <h5 style="color: #081d3f;"><b>Director (MIS) & Advisor Centre for Information & Communication Technology, NIRD-PR</b></h5>
             </div>
         </div>
     </div>
@@ -682,7 +771,7 @@
         </div>
     </div>
 
-    <div class="hoverable">
+   <!--  <div class="hoverable">
         <div class="our-team">
             <div class="picture">
                 <img class="img-fluid" src="<?php echo base_url('assets/images/prashant.PNG')?>">
@@ -692,7 +781,7 @@
                 <h5 style="color: #081d3f;"><b>Blockchain Council</b></h5>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="hoverable">
         <div class="our-team">
@@ -702,6 +791,44 @@
             <div class="team-content">
                 <h3 style="color:black;"><strong><b>Pradeepthi Duggaraju</b></strong></h3>
                 <h5 style="color: #081d3f;"><b>Smart Bridge Educational Services</b></h5>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="hoverable">
+        <div class="our-team">
+            <div class="picture">
+                <img class="img-fluid" src="<?php echo base_url('assets/images/subrahmanyam.jpg')?>">
+            </div>
+            <div class="team-content">
+                <h3 style="color:black;"><strong><b class="text-center">Dr. M. S. L. B. Subrahmanyam</b></strong></h3>
+                <h5 style="color: #081d3f;"><b>Srikari Impetus solutions pvt Ltd</b></h5>
+            </div>
+        </div>
+    </div>
+
+
+      <div class="hoverable">
+        <div class="our-team">
+            <div class="picture">
+                <img class="img-fluid" src="<?php echo base_url('assets/images/rajini.jpeg')?>">
+            </div>
+            <div class="team-content">
+                <h3 style="color:black;"><strong><b class="text-center">Dr. T. V. Rajini Kanth</b></strong></h3>
+                <h5 style="color: #081d3f;"><b>Sreenidhi Institute of Science and Technology</b></h5>
+            </div>
+        </div>
+    </div>
+
+        <div class="hoverable">
+        <div class="our-team">
+            <div class="picture">
+                <img class="img-fluid" src="<?php echo base_url('assets/images/venkat.jpg')?>">
+            </div>
+            <div class="team-content">
+                <h3 style="color:black;"><strong><b class="text-center">Venkat Aravind</b></strong></h3>
+                <h5 style="color: #081d3f;"><b>Blockchain Advisor</b></h5>
             </div>
         </div>
     </div>
@@ -745,4 +872,58 @@
                 responsive: true
             });
     });
+</script>
+
+
+
+ <!-- Time Counter -->
+ <!--  <script type="text/javascript">
+   var deadline = new Date("Dec 21, 2019 00:00:00").getTime(); 
+var x = setInterval(function() { 
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+document.getElementById("time-counter").innerHTML = days + "d "  
++ hours + "h " + minutes + "m " + seconds + "s "; 
+    if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("time-counter").innerHTML = "EXPIRED"; 
+    } 
+}, 1000); 
+
+  </script>
+ -->
+<script type="text/javascript">
+
+ var deadline = new Date("Dec 21, 2019 00:00:00").getTime(); 
+var x = setInterval(function() { 
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+if (days < 10)
+days = '0' + days;
+if(hours<10)
+hours = '0' + hours;
+if(minutes<10)
+minutes = '0' + minutes;
+if(seconds < 10)
+seconds = '0' + seconds;
+
+document.getElementById("days").innerHTML = days;
+document.getElementById("hours").innerHTML = hours;
+document.getElementById("minutes").innerHTML = minutes;
+document.getElementById("seconds").innerHTML = seconds;
+
+    if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("clockdiv").innerHTML = ""; 
+    } 
+}, 1000); 
+
 </script>

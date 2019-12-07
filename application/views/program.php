@@ -134,7 +134,10 @@ $this->load->view('common/header.php');
 
       <span id="dots3"></span>
       <span id="more3">
-        <p class="text-justify">Software professional having overall 23+ years experience with IT industry in Design & Development for
+        <p class="text-justify text-dark">
+          Director (MIS) & Advisor Centre for Information & Communication Technology, NIRD-PR, Hyderabad
+          <br>
+         <!--  Software professional having overall 23+ years experience with IT industry in Design & Development for
           Engineering Applications Domain (around 12 years)<br>
           Financial Applications Domain (around 5 years)<br>
         Healthcare Application Domain (around 3 years)</p>
@@ -144,7 +147,11 @@ $this->load->view('common/header.php');
           A member of senior management group and/extensively involved in various organizational building activities like recruitment, training, policy making and its enforcement.<br>
           Pioneered implementation of agile development practices (SCRUM Methodology) in the organization for product/software development.<br>
           A practicing Enterprise Software Architect specializing in object-oriented architecture-design-analysis and component based designs.<br>
-        As a Product development manager, efficiently handle product development and support issues depending upon priorities, interact with clients and resolve outstanding issues. </p>
+        As a Product development manager, efficiently handle product development and support issues depending upon priorities, interact with clients and resolve outstanding issues. </p> -->
+
+        <p class="text-justify text-dark">
+          Shri Samir Goswami is working as Director (MIS)  for DDU-GKY, one of the flagship skilling programs of Govt. of India under the Ministry of Rural Development. He is also heading Centre for Information and Communication Technology as an Advisor at NIRD-PR, Hyderabad. Shri Goswami is a B.Tech (Computer Science & Engineering) from NIT Durgapur, Masters in Computer Science from Rivier University, New Hampshire, USA. He has worked as an Adjunct Faculty for Ni – MSME, National Institute for Micro, Small and Medium Enterprises. Shri Goswami has profound experience as a software professional having overall 25 years in design & development of  Engineering Applications, Financial Applications and Healthcare Applications. Experienced in implementing and confirming CMM level processes and ISO standards for software development. Shri Goswami is passionate about agile way of doing software development and has pioneered implementation of agile development practices (SCRUM Methodology).
+        </p>
       </span>
       <!-- Button -->
       <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction3()" id="myBtn3">Read More</button>
