@@ -95,6 +95,9 @@
   width: 80vw;
 }
 
+#clockdiv .seconds_div{
+    display: none;
+}
 
 }
 
@@ -109,6 +112,10 @@
   .card{
   height: 80vw;
   width: 80vw;
+}
+
+#clockdiv .seconds_div{
+    display: none;
 }
 
 }
