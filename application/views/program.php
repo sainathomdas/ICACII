@@ -1,5 +1,6 @@
 <?php
 
+
 $this->load->view('common/header.php');
 ?>
 
@@ -138,17 +139,107 @@ $this->load->view('common/header.php');
         <!-- Button -->
         <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction4()" id="myBtn4">Read More</button>
 
-      </div>
+
+
+$this->load->view('common/header.php');
+?>
+
+
+
+<!-- Navbar -->
+<div class="navbarMargin"  ></div>
+
+
+
+<div class="jumbotron " >
+
+  <center>
+    <div style="vertical-align: middle;">
+      <h3 class="h1-responsive" style="color: #37474F;"><strong>Keynote Speakers</strong></h3>
     </div>
-    <div class="col-1"></div>
-    <div class="col-12 col-md-5 justify-content-center text-center hoverable">
-      <div class="card-img-top text-center ">
-        <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/damaraju.jpg');?>" class=" img-fluid hoverable " height="180" width="180">
+  </center>
+
+  <style type="text/css">
+    .avatar-flip {
+      border-radius: 90px;
+      overflow: hidden;
+      height: 180px;
+      width: 180px;
+      position: relative;
+      margin: auto;
+      top: -60px;
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 0 13px #f0f0f0;
+      -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+      -moz-box-shadow: 0 0 0 13px #f0f0f0;
+    }
+    #more1 {display: none;}
+    #more2 {display: none;}
+    #more3{display: none;}
+    p{
+
+      font-family: bold;
+    }
+  </style>
+<!-- 
+<div class="container">
+  <div class="avatar-flip">
+    <img src="<?php echo base_url('assets/images/che.jpg');?>" height="180" width="180">
+ 
+  </div>
+  <center>
+  <h2 style="color: black">Dr. Salvatore Distefano</h2>
+  </center>
+  <p class="text-justify">Dr. Salvatore Distefano is an Associate Professor at University of Messina, Italy, and Fellow Professor at Kazan Federal University, Russia, head of the Social and Urban Computing Group and of the Cisco Innovation Center in Kazan. He was formerly an Assistant Professor at Politecnico di Milano (2011-2015). In 2001 he got the master degree in Computer Engineering from University of Catania, and then, in 2006, he received the Ph.D degree on Computer Science and Engineering from University of Messina.      </p>
+
+
+  <p class="text-justify">Dr. Salvatore authored and co-authored more than 200 scientific papers and contributions to international journals, conferences and books. He took part to several national and international projects, such as Reservoir, Vision (EU FP7), SMSCOM (EU FP7 ERC Advanced Grant), Beacon, IoT-Open.EU (EU H2020). He is in the editorial boards of IEEE Transactions on Dependable and Secure Computing, International Journal of Performability Engineering, Journal of Cloud Computing, International Journal of Engineering and Industries, International Journal of Big Data, International Journal of Computer Science & Information Technology Applications, International Journal of Distributed Sensor Networks. </p>
+</div>
+</div>
+-->
+<div class="container py-3">
+  <div class="row  justify-content-center">
+    <div class="col-12 col-md-5 hoverable justify-content-center text-center">
+      <div class=" text-center ">
+
+        <img src="<?php echo base_url('assets/images/che.jpg');?>" class="img-fluid hoverable " height="180" width="180" style="border-radius: 50%;" alt="hoverable">
+
 
       </div>
       <div class="card-body">
 
         <!-- Title -->
+        <h4 class="card-title text-dark text-center"><b>Dr. Salvatore Distefano</b></h4>
+        <!-- Text -->
+
+        <span id="dots1"></span>
+        <span id="more1">
+          <p class="text-justify">Dr. Salvatore Distefano is an Associate Professor at University of Messina, Italy, and Fellow Professor at Kazan Federal University, Russia, head of the Social and Urban Computing Group and of the Cisco Innovation Center in Kazan. He was formerly an Assistant Professor at Politecnico di Milano (2011-2015). In 2001 he got the master degree in Computer Engineering from University of Catania, and then, in 2006, he received the Ph.D degree on Computer Science and Engineering from University of Messina.      </p>
+
+
+          <p class="text-justify">Dr. Salvatore authored and co-authored more than 200 scientific papers and contributions to international journals, conferences and books. He took part to several national and international projects, such as Reservoir, Vision (EU FP7), SMSCOM (EU FP7 ERC Advanced Grant), Beacon, IoT-Open.EU (EU H2020). He is in the editorial boards of IEEE Transactions on Dependable and Secure Computing, International Journal of Performability Engineering, Journal of Cloud Computing, International Journal of Engineering and Industries, International Journal of Big Data, International Journal of Computer Science & Information Technology Applications, International Journal of Distributed Sensor Networks. </p>
+        </span>
+        <!-- Button -->
+        <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction1()" id="myBtn1">Read More</button>
+
+      </div>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-12 col-md-5 justify-content-center text-center hoverable">
+      <div class="card-img-top text-center ">
+
+        <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/damaraju.jpg');?>" class=" img-fluid hoverable " height="180" width="180">
+
+        <img style="border-radius: 50%;" src="<?php echo base_url('assets/images/AnindaBose.jpg');?>" class=" img-fluid hoverable " height="180" width="180">
+
+
+      </div>
+      <div class="card-body">
+
+        <!-- Title -->
+
         <h4 class="card-title text-dark  text-center"><b>Dr. Damaraju Pavan Kumar</b></h4>
         <p class="text-center"><b class="font-weight-bold">Topic:</b> Are optimizing algorithms next buzz word? </p>
         <!-- Text -->
@@ -157,15 +248,28 @@ $this->load->view('common/header.php');
         <span id="more5">
           <p class="text-justify">An accomplished professional with over 24 years of diversified experience in the areas of teaching in Statistics, Statistical data modeling and Program management. Proficient in providing solution architecture on business problems with the help of acquired experience and Industry knowledge. Keynote speaker in various national and international conferences on Analytics in Big Data. Having experience in data modeling from initialization to data Triangulation, cleansing and Statistical modeling. Associated with premium organization both in educational domain like Osmania University and in IT services companies viz., TCS (current), Infosys and Wipro along with other Quality programs at corporate level.</p>
 
+        <h4 class="card-title text-dark  text-center"><b>Mr. Aninda Bose</b></h4>
+        <!-- Text -->
+
+        <span id="dots2"></span>
+        <span id="more2">
+          <p class="text-justify">Aninda Bose is presently working as a Senior Publishing Editor with Springer Nature. Mr. Bose is part of the Global Acquisition Team at Springer Nature and responsible for acquisition of scientific content across the globe. He is responsible for acquisition of content in Interdisciplinary Applied Sciences. He has more than 25 years of industrial experience in marketing and different fields of publishing. Mr. Bose has completed Masters in Organic Chemistry from Delhi University and Masters in Marketing Research from Symbiosis Institute of Management Studies, Pune. Mr. Bose has delivered more than 110 invited talks on Scientific Writing and Publishing Ethics in reputed Universities, International Conferences and Author Workshops. He has published books for secondary level in Chemistry and is a member of American Chemical Society, USA.</p>
+
+
 
 
         </span>
         <!-- Button -->
+
         <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction5()" id="myBtn5">Read More</button>
+
+        <button  class="btn btn-primary btn-sm waves-effect " onclick="myFunction2()" id="myBtn2">Read More</button>
+
 
       </div>
     </div>
   </div>
+
   <div class="row  justify-content-center">
     <div class="col-12 col-md-5 hoverable justify-content-center text-center">
       <div class=" text-center ">
@@ -202,6 +306,13 @@ $this->load->view('common/header.php');
 
 <hr id="plenary" class="py-4 my-4 mb-4">
 
+
+  
+</div>
+
+<hr id="plenary">
+
+
 <!--Plenary speaker start-->
 <center>
   <div style="vertical-align: middle;">
@@ -217,7 +328,10 @@ $this->load->view('common/header.php');
 
       <!-- Title -->
       <h4 class="card-title text-dark text-center"><b>Samir Goswami</b></h4>
+
       <p class="text-center"><b class="font-weight-bold">Title of Talk:</b>  Digital India: The way forward</p>
+
+
       <!-- Text -->
 
       <span id="dots3"></span>
@@ -356,6 +470,7 @@ website: <a href="http://www.icacii.com/" target="_blank"> www.icacii.com</a></l
       moreText.style.display = "inline";
     }
   }
+
   
   function myFunction4() {
     var dots = document.getElementById("dots4");
@@ -403,6 +518,8 @@ website: <a href="http://www.icacii.com/" target="_blank"> www.icacii.com</a></l
     }
   }
   
+
+
 
 
 </script>

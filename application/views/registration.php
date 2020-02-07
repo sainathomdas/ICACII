@@ -89,12 +89,15 @@ $this->load->view('common/header.php');
         </table>
         <br>
 
+
 <hr>
        
             <h6 style="color: black;"><strong>Paper Registration:</strong>&nbsp;<a href="https://forms.gle/DinDeHKfwhzgmTzM9">https://forms.gle/DinDeHKfwhzgmTzM9</a></h6>
             <br>
             <h6 style="color: black;"><strong>Poster Registration:</strong>&nbsp;<a href="https://forms.gle/Qi488BecSwUrgWut6">https://forms.gle/Qi488BecSwUrgWut6</a></h6>
     <hR>    
+
+
 
         <h6 style="color: blue;"><strong>Payment of registration Fee (Online Payment using SBI Collect or Account Transfer):</strong></h6>
         <div class="container mt-1" style="font-family: 'Lato', sans-serif;">

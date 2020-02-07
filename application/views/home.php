@@ -112,29 +112,47 @@
     display: inline-block;
     font-weight: 100;
     text-align: center;
+
     font-size: 25px;
+
+    font-size: 30px;
+
 }
 
 #clockdiv > div{
     padding: 10px;
+
     width:10rem;
     border-radius: 3px;
     background: #f1f1f1;
+
+    border-radius: 3px;
+    background: orange;
+
     display: inline-block;
 }
 
 #clockdiv div > span{
+
     padding: 10px;
     border-radius: 50px;
+
+    padding: 15px;
+    border-radius: 3px;
+
     background: teal;
     display: inline-block;
 }
 
 .smalltext{
     padding-top: 5px;
+
     font-size: 14px;
     color:black;
     font-weight:bold;
+
+    font-size: 16px;
+
 }
 
 
@@ -192,16 +210,26 @@
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Program</strong>
                         </a>
                         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Keynote Speakers</a>
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
                             <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
                               <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/Programme Schedule - ICACII 2019.pdf');?>" target="_blank">Programme Schedule</a>
                             
+
+                            <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+                            <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
+                            <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+                            <a class="dropdown-item" style="font-size: 16px;" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+
                             <a class="dropdown-item dropdown-toggle"  style="font-size: 16px;" type="button" data-toggle="dropdown" href="#">Oral Presentation</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('index.php/Program#guidelines');?>">Presentation Guidelines</a>
                                 <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">Presentation Template</a>
+
                                 <a class="dropdown-item" style="font-size: 16px;"  href="<?php echo base_url('assets/ICACII 2019 Paper Presentation Schdule.pdf');?>" target="_blank">Presentation Schedule</a>
+
+
                             </div>
                         </div>
                     </li>
@@ -335,11 +363,19 @@
   <div>
     <span class="minutes" id="minutes"></span>
     <div class="smalltext">Minutes</div>
+
   </div>
   <div class="seconds_div">
     <span class="seconds" id="seconds"></span>
     <div class="smalltext">Seconds</div>
   </div>
+
+  </div>
+  <div class="seconds_div">
+    <span class="seconds" id="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+
 </div>
 <br>
 
@@ -666,16 +702,24 @@
         </div>
     </div>
 
+
    <!--  <div class="hoverable">
         <div class="our-team">
             <div class="picture">
                 <img class="img-fluid" src="<?php //echo base_url('assets/images/rajeev.png')?>">
+
+    <div class="hoverable">
+        <div class="our-team">
+            <div class="picture">
+                <img class="img-fluid" src="<?php echo base_url('assets/images/rajeev.png')?>">
+
             </div>
             <div class="team-content">
                 <h3 style="color:black;"><strong><b>Dr. Rajeev Wankar</b></strong></h3>
                 <h5 style="color: #081d3f;"><b>HCU - School of Computer and information Sciences</b></h5>
             </div>
         </div>
+
     </div> -->
     <div class="hoverable">
         <div class="our-team">
@@ -698,6 +742,8 @@
                 <h5 style="color: #081d3f;"><b>Software Consultant</b></h5>
             </div>
         </div>
+
+
     </div>
 
     <div class="hoverable">
@@ -719,7 +765,11 @@
             </div>
             <div class="team-content">
                 <h3 style="color:black;"><strong><b>Dr. J. Sasi Kiran</b></strong></h3>
+
                 <h5 style="color: #081d3f;"><b>Lords Institute of Engineering and Technology, Hyderabad</b></h5>
+
+                <h5 style="color: #081d3f;"><b>LORDS - CSE Dept</b></h5>
+
             </div>
         </div>
     </div>
@@ -925,7 +975,11 @@ document.getElementById("time-counter").innerHTML = days + "d "
  -->
 <script type="text/javascript">
 
+
  var deadline = new Date("Dec 20, 2019 00:00:00").getTime(); 
+
+ var deadline = new Date("Dec 21, 2019 00:00:00").getTime(); 
+
 var x = setInterval(function() { 
 var now = new Date().getTime(); 
 var t = deadline - now; 

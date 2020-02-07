@@ -153,6 +153,7 @@
         aria-haspopup="true" aria-expanded="false">Program
       </a>
       <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+
        <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speakers</a>
        <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
        <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
@@ -170,6 +171,22 @@
   </li>
 
   <li class="nav-item dropdown cool-link">
+
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Keynote Speaker</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program#plenary');?>">Plenary Speaker</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Accepted Papers</a>
+       <a class="dropdown-item" href="<?php echo base_url('index.php/Program');?>">Program Schedule</a>
+         <a class="dropdown-item dropdown-toggle" type="button" data-toggle="dropdown" href="#">Oral Presentation</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="<?php echo base_url('index.php/Program#guidelines');?>">Presentation Guidelines</a>
+      <a class="dropdown-item" href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">Presentation Template</a>
+    </div>
+    
+     </div>
+   </li>
+
+      <li class="nav-item dropdown cool-link">
+
     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
     aria-haspopup="true" aria-expanded="false">PreConference
   </a>
@@ -177,13 +194,21 @@
 
    <a class="dropdown-item" href="<?php echo base_url('assets/Data Analytics.pdf');?>" target = "_blank">Data Analytics & Visualization</a>
    <a class="dropdown-item" href="<?php echo base_url('assets/IoT.pdf');?>" target = "_blank" >Internet of Things</a>
+
    <a class="dropdown-item"  href="<?php echo base_url('assets/ip.PDF');?>" target = "_blank" >Computer Vision</a>
    <a class="dropdown-item" href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Machine Learning with Python on IBM Cloud</a>
    <a class="dropdown-item"href="<?php echo base_url('assets/Cyber Security.pdf');?>" target = "_blank"  >Security through Blockchain Technology
    </a>
 
+     <a class="dropdown-item"  href="<?php echo base_url('assets/ip.PDF');?>" target = "_blank" >Computer Vision</a>
+     <a class="dropdown-item" href="<?php echo base_url('assets/MLAI.pdf');?>" target = "_blank" >Machine Learning with Python on IBM Cloud</a>
+<a class="dropdown-item"href="<?php echo base_url('assets/Cyber Security.pdf');?>" target = "_blank"  >Security through Blockchain Technology
+</a>
+
+
  </div>
 </li>
+
 
 <li class="nav-item cool-link">
   <a class="nav-link text-center" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
@@ -207,6 +232,30 @@
   <a class="dropdown-item"  href="<?php echo base_url('assets/ICACII Poster Template Updated.pptx');?>" download = "ICACII Poster Template Updated">Poster Template</a>
   
 </div>
+
+   <li class="nav-item cool-link">
+    <a class="nav-link text-center" href="<?php echo base_url('index.php/CallForPapers');?>" >Call for Papers</a>
+  </li>
+
+  <li class="nav-item cool-link">
+    <a class="nav-link" href="<?php echo base_url('index.php/Registration');?>">Registration</a>
+  </li>
+
+  <li class="nav-item dropdown cool-link">
+    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false">Download
+  </a>
+  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+  <a class="dropdown-item"  href="<?php echo base_url('assets/Author-kit.rar');?>" download = "Author-kit.rar">Author kit</a>
+   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Copyrights</a>
+   <a class="dropdown-item" href="<?php echo base_url('index.php/Download');?>">Registration form</a>
+     <a class="dropdown-item" href="<?php echo base_url('assets/Brochure.pdf');?>" target = "_blank">Brochure</a>
+     <a class="dropdown-item" href="<?php echo base_url('assets/sponsorship.pdf');?>" target = "_blank">Sponsorship</a>
+     <a class="dropdown-item"  href="<?php echo base_url('assets/PPT_Template ICACII 2019.ppt');?>" download = "PPT_Template ICACII 2019">PPT Template</a>
+      <a class="dropdown-item"  href="<?php echo base_url('assets/ICACII Poster Template Updated.pptx');?>" download = "ICACII Poster Template Updated">Poster Template</a>
+     
+ </div>
+
 </li>
 
 <li class="nav-item dropdown cool-link">
@@ -218,7 +267,11 @@
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#visaInfo');?>">VISA Info</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue');?>">Accomodation</a>
   <a class="dropdown-item" href="<?php echo base_url('index.php/Venue#localInfo');?>">Local Info</a>
+
   
+
+   
+
 </div>
 </li>
 
